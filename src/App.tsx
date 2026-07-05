@@ -1,8 +1,29 @@
+import { Routes, Route } from 'react-router-dom'
+import Header from '@/components/Header'
+import Inicio from '@/pages/Inicio'
+import Cronologia from '@/pages/Cronologia'
+import ObraMaestra from '@/pages/ObraMaestra'
+import Reconocimiento from '@/pages/Reconocimiento'
+import Manifiesto from '@/pages/Manifiesto'
+import RegistroHistorico from '@/pages/RegistroHistorico'
+import Correspondencia from '@/pages/Correspondencia'
+
 function App() {
   return (
-    <div className="min-h-svh flex items-center justify-center bg-neutral-950 text-white">
-      <h1 className="text-4xl font-bold">Mejor Escritor del Siglo</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/cronologia" element={<Cronologia />} />
+          <Route path="/obra-maestra" element={<ObraMaestra />} />
+          <Route path="/reconocimiento" element={<Reconocimiento />} />
+          <Route path="/manifiesto" element={<Manifiesto />} />
+          <Route path="/registro-historico" element={<RegistroHistorico />} />
+          <Route path="/correspondencia" element={<Correspondencia />} />
+        </Routes>
+      </main>
+    </>
   )
 }
 

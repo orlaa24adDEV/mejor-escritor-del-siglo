@@ -25,6 +25,26 @@ Landing page del mejor escritor del siglo. Español.
 - **Naming:** PascalCase para componentes, camelCase para funciones/variables.
 - **Sin `any`:** definir interfaces/types para props y estados.
 - **No hay `tailwind.config.*`** — Tailwind v4 no lo necesita. Personalizar con `@theme` en `index.css`.
+
+## Paleta de colores
+
+Definida en `src/index.css` vía `@theme`. Usar con clases utilitarias de Tailwind.
+
+| Variable | Hex | Uso |
+|----------|-----|-----|
+| `negro` | `#0D0D0D` | Textos principales |
+| `marfil` | `#F4F1EA` | Fondos |
+| `dorado` | `#B08D57` | Líneas, detalles, títulos |
+| `piedra` | `#6F6F6F` | Textos secundarios |
+| `borgona` | `#4A1F24` | Sellos, botones importantes |
+
+Ej: `text-negro`, `bg-marfil`, `border-dorado`.
+
+## Tipografía
+
+- **Serif (títulos, decorativos):** Cormorant Garamond — clase `font-serif`.
+- **Sans (cuerpo):** Inter — clase `font-sans` (aplicada por defecto al `<body>`).
+- Cargadas desde Google Fonts en `index.html`. Usar `font-serif` o `font-sans` como clases Tailwind.
 - **Componentes** en `src/components/`, hooks en `src/hooks/`.
 
 ## Notas
