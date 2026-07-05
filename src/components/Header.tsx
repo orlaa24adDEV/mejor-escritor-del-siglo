@@ -4,14 +4,14 @@ import Logo from '@/components/Logo'
 const leftItems = [
   { label: 'Inicio', path: '/' },
   { label: 'Cronología', path: '/cronologia' },
-  { label: 'Obra Maestra', path: '/obra-maestra' },
-  { label: 'Reconocimiento', path: '/reconocimiento' },
+  { label: 'Poesia', path: '/poesia' },
+  { label: 'Narrativa', path: '/narrativa' },
 ] as const
 
 const rightItems = [
-  { label: 'Manifiesto', path: '/manifiesto' },
+  { label: 'Reconocimiento', path: '/reconocimiento' },
   { label: 'Registro Histórico', path: '/registro-historico' },
-  { label: 'Correspondencia', path: '/correspondencia' },
+  { label: 'Contacto', path: '/contacto' },
 ] as const
 
 function NavLinks({ items }: { items: ReadonlyArray<{ label: string; path: string }> }) {

@@ -2,11 +2,11 @@ import { Routes, Route } from 'react-router-dom'
 import Header from '@/components/Header'
 import Inicio from '@/pages/Inicio'
 import Cronologia from '@/pages/Cronologia'
-import ObraMaestra from '@/pages/ObraMaestra'
+import Poesia from '@/pages/Poesia'
+import Narrativa from '@/pages/Narrativa'
 import Reconocimiento from '@/pages/Reconocimiento'
-import Manifiesto from '@/pages/Manifiesto'
 import RegistroHistorico from '@/pages/RegistroHistorico'
-import Correspondencia from '@/pages/Correspondencia'
+import Contacto from '@/pages/Contacto'
 import Footer from '@/components/Footer'
 
 function App() {
@@ -17,11 +17,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/cronologia" element={<Cronologia />} />
-          <Route path="/obra-maestra" element={<ObraMaestra />} />
+          <Route path="/poesia" element={<Poesia />} />
+          <Route path="/narrativa" element={<Narrativa />} />
           <Route path="/reconocimiento" element={<Reconocimiento />} />
-          <Route path="/manifiesto" element={<Manifiesto />} />
           <Route path="/registro-historico" element={<RegistroHistorico />} />
-          <Route path="/correspondencia" element={<Correspondencia />} />
+          <Route path="/contacto" element={<Contacto />} />
         </Routes>
       </main>
       <Footer />
