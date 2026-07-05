@@ -7,6 +7,7 @@ import Reconocimiento from '@/pages/Reconocimiento'
 import Manifiesto from '@/pages/Manifiesto'
 import RegistroHistorico from '@/pages/RegistroHistorico'
 import Correspondencia from '@/pages/Correspondencia'
+import Footer from '@/components/Footer'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/correspondencia" element={<Correspondencia />} />
         </Routes>
       </main>
+      <Footer />
     </>
   )
 }

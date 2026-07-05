@@ -33,7 +33,7 @@ function NavLinks({ items }: { items: ReadonlyArray<{ label: string; path: strin
 function Header() {
   return (
     <header className="fixed top-0 left-0 w-full bg-negro border-b-1 border-dorado z-40 relative">
-      <div className="flex items-center py-8">
+      <div className="flex items-center py-13">
         <div className="flex-1 flex justify-center">
           <nav className="hidden lg:flex items-center gap-20">
             <NavLinks items={leftItems} />
