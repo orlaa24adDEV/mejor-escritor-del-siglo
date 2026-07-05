@@ -1,9 +1,7 @@
+import HeroSection from '@/sections/HeroSection'
+
 function Inicio() {
-  return (
-    <section className="min-h-svh flex items-center justify-center bg-marfil">
-      <h1 className="font-serif text-6xl text-negro">Inicio</h1>
-    </section>
-  )
+  return <HeroSection />
 }
 
 export default Inicio
