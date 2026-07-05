@@ -1,32 +1,68 @@
-# React + TypeScript + Vite
+# Mejor Escritor del Siglo
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page del mejor escritor del siglo. Proyecto web en español.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React 19** + **TypeScript 6**
+- **Vite 8** (build tool)
+- **Tailwind CSS v4** (estilos)
+- **React Router** (7 rutas)
 
-## React Compiler
+## Dependencias principales
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Paquete | Versión |
+|---------|---------|
+| `react` / `react-dom` | ^19.2 |
+| `react-router-dom` | ^7 |
+| `lucide-react` | Iconos |
+| `react-icons` | Iconos de redes sociales |
+| `tailwindcss` / `@tailwindcss/vite` | ^4 |
+| `typescript` | ~6.0 |
+| `vite` | ^8.1 |
+| `oxlint` | ^1.71 |
 
-## Expanding the Oxlint configuration
+## Estructura
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```
+src/
+├── assets/            # imágenes
+├── components/        # Header, Footer, Button, Logo
+├── hooks/             # custom hooks
+├── lib/               # utilidades
+├── pages/             # 7 páginas (una por ruta)
+├── sections/          # HeroSection, InformationSection
+├── App.tsx            # routing
+├── main.tsx           # entry point (BrowserRouter)
+└── index.css          # Tailwind + theme personalizado
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Rutas
+
+| Ruta | Página |
+|------|--------|
+| `/` | Inicio |
+| `/cronologia` | Cronología |
+| `/obra-maestra` | Obra Maestra |
+| `/reconocimiento` | Reconocimiento |
+| `/manifiesto` | Manifiesto |
+| `/registro-historico` | Registro Histórico |
+| `/correspondencia` | Correspondencia |
+
+## Comandos
+
+| Acción | Comando |
+|--------|---------|
+| Dev server | `npm run dev` |
+| Build | `npm run build` |
+| Preview | `npm run preview` |
+| Lint | `npm run lint` |
+
+## Diseño
+
+- **Paleta:** negro (#0D0D0D), marfil (#F4F1EA), dorado (#B08D57), piedra (#6F6F6F), borgoña (#4A1F24)
+- **Tipografía:** Cormorant Garamond (serif) + Inter (sans) vía Google Fonts
+- **Header fijo** con logo independiente solapando el borde superior
+- **HeroSection** con imagen de fondo, degradado y texto centrado
+- **InformationSection** con 5 columnas de estadísticas
+- **Footer** con 4 columnas, iconos Astroid como separadores y enlaces a redes sociales
