@@ -1,4 +1,4 @@
-import { Sparkle } from "lucide-react"
+import { Astroid } from "lucide-react"
 
 const timelineData = [
   {
@@ -84,7 +84,7 @@ const timelineData = [
   {
     year: "2026",
     title: "Europa",
-    text: "Renuncia a su empleo. Viaja a Europa. Concluye la escritura de uno de sus más célebres libros de poesía, cuyo título continúa siendo objeto de estudio. Los epigrafistas consultados coinciden en que las inscripciones originales fueron realizadas desde un grado de inspiración excepcionalmente elevado. Algunos informes preliminares hablan, sin el debido rigor científico, de un estado de “celestialidad”. Los investigadores consideran que esta etapa permanece abierta y, por razones metodológicas, se niegan a emitir conclusiones prematuras, pero prometen actualizaciones.",
+    text: "Renuncia a su empleo. Viaja a Europa. Decide que ya es suficiente humildad. Concluye la escritura de uno de sus más célebres libros de poesía, cuyo título continúa siendo objeto de estudio. Los epigrafistas consultados coinciden en que las inscripciones originales fueron realizadas desde un grado de inspiración excepcionalmente elevado. Algunos informes preliminares hablan, sin el debido rigor científico, de un estado de “celestialidad”. Los investigadores consideran que esta etapa permanece abierta y, por razones metodológicas, se niegan a emitir conclusiones prematuras, pero prometen actualizaciones.",
   },
 ]
 
@@ -92,7 +92,7 @@ function TimelineSection() {
   return (
     <section className="bg-negro relative pb-50 px-24">
       <div className="relative mx-auto" style={{ width: "1600px" }}>
-        <div className="absolute left-1/2 top-0 bottom-0 w-[1px] bg-dorado -translate-x-1/2 z-0" />
+        <div className="absolute left-1/2 top-0 bottom-0 w-[2px] bg-dorado -translate-x-1/2 z-0" />
 
         <div className="relative flex flex-col gap-24">
           {timelineData.map((text, index) => {
@@ -110,7 +110,7 @@ function TimelineSection() {
                       </p>
                     </div>
                     <div className="absolute left-1/2 -translate-x-1/2 z-10">
-                      <Sparkle className="text-dorado h-6 w-6" />
+                      <Astroid className="text-dorado h-6 w-6" />
                     </div>
                     <div className="flex-1" />
                   </>
@@ -118,7 +118,7 @@ function TimelineSection() {
                   <>
                     <div className="flex-1" />
                     <div className="absolute left-1/2 -translate-x-1/2 z-10">
-                      <Sparkle className="text-dorado h-6 w-6" />
+                      <Astroid className="text-dorado h-6 w-6" />
                     </div>
                     <div className="flex-1 text-left pl-20">
                       <span className="font-serif text-4xl text-dorado block">{text.year}</span>
