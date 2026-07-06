@@ -19,7 +19,7 @@ function HeroSection() {
           <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />
         </div>
         <div className="relative">
-          <h1 className="font-serif text-7xl text-white leading-tight border-b-1 border-dorado pb-10">
+          <h1 className="font-serif text-7xl text-marfil leading-tight border-b-1 border-dorado pb-10">
             EL ESCRITOR <br />DEL SIGLO
           </h1>
           <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />

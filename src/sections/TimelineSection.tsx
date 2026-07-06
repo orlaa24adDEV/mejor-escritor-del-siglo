@@ -1,4 +1,4 @@
-import { CircleChevronLeft, CircleChevronRight, Sparkle, Astroid} from "lucide-react"
+import { Sparkle } from "lucide-react"
 
 const timelineData = [
   {

@@ -21,7 +21,7 @@ function NavLinks({ items }: { items: ReadonlyArray<{ label: string; path: strin
       to={item.path}
       className={({ isActive }) =>
         `font-serif tracking-wide text-base uppercase transition-colors ${
-          isActive ? 'text-dorado' : 'text-white hover:text-dorado'
+          isActive ? 'text-dorado' : 'text-marfil hover:text-dorado'
         }`
       }
     >
