@@ -20,7 +20,7 @@ function NavLinks({ items }: { items: ReadonlyArray<{ label: string; path: strin
       key={item.path}
       to={item.path}
       className={({ isActive }) =>
-        `font-serif text-sm tracking-wide uppercase transition-colors ${
+        `font-serif tracking-wide text-base uppercase transition-colors ${
           isActive ? 'text-dorado' : 'text-white hover:text-dorado'
         }`
       }
