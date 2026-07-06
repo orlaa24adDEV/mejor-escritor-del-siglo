@@ -1,4 +1,4 @@
-import { Astroid } from "lucide-react"
+import { CircleChevronLeft, CircleChevronRight, Sparkle, Astroid} from "lucide-react"
 
 const timelineData = [
   {
@@ -7,7 +7,7 @@ const timelineData = [
     text: "Nace Franco Reinaldo Pou en la ciudad de Buenos Aires, Argentina. La historia todavia desconoce las consecuencias de este acontecimiento, pero se sabe que marcará un antes y un después en la historia de la literatura mundial.",
   },
   {
-    year: "1997 – 2011",
+    year: "1997 - 2011",
     title: "Años sin archivo",
     text: "Su padre abandona el hogar. La información correspondiente a estos años presenta importantes inconsistencias. Algunas fuentes sostienen que desde pequeño manifestó una curiosidad excesiva por demasiadas disciplinas y una sensibilidad impropia para su edad. Otras afirman que anticipaba la llegada de las visitas antes de que golpearan la puerta. Existen testimonios según los cuales conversaba con personas cuya existencia jamás pudo corroborarse. Un episodio particularmente controvertido relata que, siendo niño, fue dejado al cuidado de dos curanderos con supuestos dones de clarividencia e imposición de manos, quienes, sin autorización familiar, lo bautizaron y se autoproclamaron sus padrinos mediante un ritual cuya validez continúa siendo discutida por especialistas. También consta un incidente de gravedad moral: rompió deliberadamente el huevo de un pájaro durante un juego, comprendió inmediatamente la naturaleza de su acto y permaneció entristecido durante aproximadamente un mes. Su abuela, figura determinante del período, acostumbraba introducirlo al pasado mediante monedas antiguas, cajas musicales y poemas recitados diariamente.",
   },
@@ -92,10 +92,10 @@ function TimelineSection() {
   return (
     <section className="bg-negro relative pb-50 px-24">
       <div className="relative mx-auto" style={{ width: "1600px" }}>
-        <div className="absolute left-1/2 top-0 bottom-0 w-[1.5px] bg-dorado -translate-x-1/2 z-0" />
+        <div className="absolute left-1/2 top-0 bottom-0 w-[1px] bg-dorado -translate-x-1/2 z-0" />
 
         <div className="relative flex flex-col gap-24">
-          {timelineData.map((entry, index) => {
+          {timelineData.map((text, index) => {
             const isLeft = index % 2 === 0
 
             return (
@@ -103,14 +103,14 @@ function TimelineSection() {
                 {isLeft ? (
                   <>
                     <div className="flex-1 text-right pr-20">
-                      <span className="font-serif text-4xl text-dorado block">{entry.year}</span>
-                      <h3 className="font-serif text-2xl text-piedra mt-2">{entry.title}</h3>
+                      <span className="font-serif text-4xl text-dorado block">{text.year}</span>
+                      <h3 className="font-serif text-2xl text-piedra mt-2">{text.title}</h3>
                       <p className="font-serif text-2xl text-marfil mt-2 leading-relaxed">
-                        {entry.text}
+                        {text.text}
                       </p>
                     </div>
                     <div className="absolute left-1/2 -translate-x-1/2 z-10">
-                      <Astroid className="text-dorado h-6 w-6" />
+                      <Sparkle className="text-dorado h-6 w-6" />
                     </div>
                     <div className="flex-1" />
                   </>
@@ -118,13 +118,13 @@ function TimelineSection() {
                   <>
                     <div className="flex-1" />
                     <div className="absolute left-1/2 -translate-x-1/2 z-10">
-                      <Astroid className="text-dorado h-6 w-6" />
+                      <Sparkle className="text-dorado h-6 w-6" />
                     </div>
                     <div className="flex-1 text-left pl-20">
-                      <span className="font-serif text-4xl text-dorado block">{entry.year}</span>
-                      <h3 className="font-serif text-2xl text-piedra mt-2">{entry.title}</h3>
+                      <span className="font-serif text-4xl text-dorado block">{text.year}</span>
+                      <h3 className="font-serif text-2xl text-piedra mt-2">{text.title}</h3>
                       <p className="font-serif text-2xl text-marfil mt-2 leading-relaxed">
-                        {entry.text}
+                        {text.text}
                       </p>
                     </div>
                   </>
