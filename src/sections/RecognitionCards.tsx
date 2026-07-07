@@ -1,21 +1,38 @@
+import { Astroid } from "lucide-react"
+import diploma from "@/assets/diploma.png"
+import diploma2 from "@/assets/diploma2.png"
+import diploma3 from "@/assets/diploma3.png"
+import diploma4 from "@/assets/diploma4.png"
+import diploma5 from "@/assets/diploma5.png"
+import diploma6 from "@/assets/diploma6.png"
+import diploma7 from "@/assets/diploma7.png"
+import diploma8 from "@/assets/diploma8.png"
+import premioNobel from "@/assets/premioNobel.png"
+import rechazar from "@/assets/rechazar.png"
+
 const largeCards = [
   {
+    img: diploma,
     title: "Declarado \"Promesa Retroactiva de las Letras Argentinas 2026\", Instituto Polar de Literatura, Base San Martín, Antártida.",
     text: "Distinción concedida con efecto retroactivo desde 2012.",
   },
   {
+    img: diploma2,
     title: "\"Faja de honor a la Grandeza Preventiva\", North American Institute for Future Classics, Princeton, New Jersey, Estados Unidos.",
     text: "Otorgado a personalidades cuyo legado resulta estadísticamente inevitable.",
   },
   {
+    img: diploma3,
     title: "Paloma de platino al Autor Patrimonial en Potencia, Observatorio Continental del Legado Literario, Gaborone, Botsuana",
     text: "El jurado destacó \"la extraordinaria capacidad del candidato para ser considerado un clásico mientras todavía corrige manuscritos\".",
   },
   {
+    img: diploma4,
     title: "Instituto Internacional para el Estudio Fenomenológico (IIEF), Hobart, Tasmania, Australia.",
     text: "Declara al autor como \"Objeto de estudio de sí mismo\".",
   },
   {
+    img: diploma5,
     title: "Comisión Permanente para la Conservación del Asombro (CPCA) Lhasa, Tíbet.",
     text: "Declara al autor como “Asombroso”. Mantiene abierta la investigación.",
   },
@@ -23,14 +40,17 @@ const largeCards = [
 
 const smallCards = [
   {
+    img: diploma6,
     title: "Distincion menor 1",
     text: "“Caballero Honorario” de la Orden del Punto y Coma, Buenos Aires. “Custodio Vitalicio de la Metáfora Bien Construida”, Academia Literaria de Ushguli, en el Cáucaso georgiano.",
   },
   {
+    img: diploma7,
     title: "Distincion menor 2",
     text: "“Embajador Plenipotenciario del Verso Preciso”, Instituto para la Medición del Lirismo, Kioto, Japón. Autorizado por la Casa Real Argentina para utilizar el plural mayestático en entrevistas.",
   },
   {
+    img: diploma8,
     title: "Distincion menor 3",
     text: "Mayor concentración de solemnidad registrada en una fotografía promocional. (Renovación automática mientras continúe utilizando chaleco).",
   },
@@ -38,10 +58,12 @@ const smallCards = [
 
 const InevitablesOtherCards = [
   {
+    img: premioNobel,
     title: "Reconocimiento Inevitable",
     text: "Premio Nobel de Literatura, otorgado por la Academia Sueca.",
   },
   {
+    img: rechazar,
     title: "Reconocimiento Rechazados",
     text: "Pendientes de ser ofrecidos.",
   },
@@ -60,12 +82,14 @@ function RecognitionCards() {
           {largeCards.map((card, i) => (
             <div
               key={i}
-              className="flex-1 border border-dorado bg-negro p-10 min-h-[350px] flex flex-col justify-left"
+              className="flex-1 border-b-2 border-dorado bg-negro p-10 min-h-[350px] flex flex-col justify-start relative shadow-[0_0_10px_rgba(176,141,87,0.25)] hover:-translate-y-3 hover:shadow-[0_0_20px_rgba(176,141,87,0.35)] transition-all duration-300 rounded-lg"
             >
-              <p className="font-serif text-2xl text-dorado mb-2">{card.title}</p>
-              <p className="font-serif text-xl text-marfil leading-relaxed">
+              <img src={card.img} alt="" className="h-40 w-auto mb-4 self-center shadow-[0_0_100px_rgba(176,141,87,0.25)] rounded-lg" />
+              <p className="font-serif text-lg text-dorado mb-2">{card.title}</p>
+              <p className="font-serif text-lg text-marfil leading-relaxed">
                 {card.text}
               </p>
+              <Astroid className="text-dorado w-5 absolute bottom-4 left-1/2 -translate-x-1/2" />
             </div>
           ))}
         </div>
@@ -78,13 +102,15 @@ function RecognitionCards() {
           {smallCards.map((card, i) => (
             <div
               key={i}
-              className="border border-dorado bg-negro p-8 min-h-[280px] flex flex-col justify-left "
+              className="border-b-2 border-dorado bg-negro p-8 min-h-[280px] flex flex-col justify-start relative shadow-[0_0_10px_rgba(176,141,87,0.25)] hover:-translate-y-3 hover:shadow-[0_0_20px_rgba(176,141,87,0.35)] transition-all duration-300 rounded-lg"
               style={{ width: "420px" }}
             >
-              <p className="font-serif text-2xl text-dorado mb-2">{card.title}</p>
-              <p className="font-serif text-xl text-marfil leading-relaxed">
+              <img src={card.img} alt="" className="h-30 w-auto mb-4 self-center shadow-[0_0_100px_rgba(176,141,87,0.25)] rounded-lg" />
+              <p className="font-serif text-lg text-dorado mb-2">{card.title}</p>
+              <p className="font-serif text-lg text-marfil leading-relaxed">
                 {card.text}
               </p>
+              <Astroid className="text-dorado w-5 absolute bottom-4 left-1/2 -translate-x-1/2" />
             </div>
           ))}
         </div>
@@ -97,13 +123,15 @@ function RecognitionCards() {
           {InevitablesOtherCards.map((card, i) => (
             <div
               key={i}
-              className="border border-dorado bg-negro p-8 min-h-[280px] flex flex-col justify-left"
+              className="border-b-2 border-dorado bg-negro p-8 min-h-[280px] flex flex-col justify-start relative shadow-[0_0_10px_rgba(176,141,87,0.25)] hover:-translate-y-3 hover:shadow-[0_0_20px_rgba(176,141,87,0.35)] transition-all duration-300 rounded-lg"
               style={{ width: "420px" }}
             >
-              <p className="font-serif text-2xl text-dorado mb-2">{card.title}</p>
-              <p className="font-serif text-xl text-marfil leading-relaxed">
+              <img src={card.img} alt="" className="h-50 w-auto mb-4 self-center" />
+              <p className="font-serif text-lg text-dorado mb-2">{card.title}</p>
+              <p className="font-serif text-lg text-marfil leading-relaxed">
                 {card.text}
               </p>
+              <Astroid className="text-dorado w-5 absolute bottom-4 left-1/2 -translate-x-1/2" />
             </div>
           ))}
         </div>

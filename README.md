@@ -11,12 +11,13 @@ Landing page del mejor escritor del siglo. Proyecto web en español.
 
 ## Dependencias principales
 
-| Paquete | Versión |
-|---------|---------|
+| Paquete | Versión / Uso |
+|---------|---------------|
 | `react` / `react-dom` | ^19.2 |
 | `react-router-dom` | ^7 |
-| `lucide-react` | Iconos |
+| `lucide-react` | Iconos (Astroid, Sparkle, etc.) |
 | `react-icons` | Iconos de redes sociales |
+| `tailwind-animations` | ^1.0 (midudev) |
 | `tailwindcss` / `@tailwindcss/vite` | ^4 |
 | `typescript` | ~6.0 |
 | `vite` | ^8.1 |
@@ -31,7 +32,7 @@ src/
 ├── hooks/             # custom hooks
 ├── lib/               # utilidades
 ├── pages/             # 7 páginas (una por ruta)
-├── sections/          # HeroSection, InformationSection
+├── sections/          # HeroSection, InformationSection, TimelineSection, RecognitionCards
 ├── App.tsx            # routing
 ├── main.tsx           # entry point (BrowserRouter)
 └── index.css          # Tailwind + theme personalizado
@@ -66,3 +67,5 @@ src/
 - **HeroSection** con imagen de fondo, degradado y texto centrado
 - **InformationSection** con 5 columnas de estadísticas
 - **Footer** con 4 columnas, iconos Astroid como separadores y enlaces a redes sociales
+- **Cronología** con línea temporal vertical dorada, 17 entradas alternando izquierda/derecha
+- **Reconocimiento** con 8 cards de borde dorado (5 grandes + 3 pequeñas)

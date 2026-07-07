@@ -16,7 +16,7 @@ function Reconocimiento() {
             </div>
             <div className="relative">
               <h1 className="font-serif text-7xl text-marfil leading-tight border-b-1 border-dorado pb-10">
-                OFICIALES, EXTRAOFICIALES E <br />INEVTABLES
+                OFICIALES, EXTRAOFICIALES E <br />INEVITABLES
               </h1>
               <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />
             </div>
