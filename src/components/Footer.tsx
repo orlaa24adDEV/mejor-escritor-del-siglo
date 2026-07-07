@@ -7,7 +7,7 @@ function Footer() {
       <div className="flex-1 flex items-center justify-center p-4 gap-4">
         <Landmark className="text-dorado h-10 w-10" />
         <p className="font-serif text-base text-negro text-left" >
-          INSTITUTO INTERNACIONAL <br />PARA EL ESTUDIO DE SU LEGADO <br /><span className="text-piedra">FUNDADO Y SOSTENIDO POR EL MIMSO</span>
+          INSTITUTO INTERNACIONAL <br />PARA EL ESTUDIO DE SU LEGADO <br /><span className="text-piedra">FUNDADO Y SOSTENIDO POR EL MISMO</span>
         </p>
       </div>
       <div className="flex items-center justify-center px-2">
