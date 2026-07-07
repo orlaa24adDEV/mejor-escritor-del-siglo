@@ -83,7 +83,7 @@ Ej: `text-negro`, `bg-marfil`, `border-dorado`.
 - **Button:** acepta prop `to` para renderizar como `Link` de react-router. Estilo: `bg-transparent border border-dorado text-dorado font-serif`.
 - **Footer:** 4 columnas flex con iconos `Astroid` como separadores. Contenido variable por columna (estadísticas, versión, compatibilidad, redes sociales).
 - **TimelineSection:** línea temporal vertical dorada centrada, contenido alterna izquierda/derecha, datos en array editable.
-- **RecognitionCards:** 5 cards grandes + 3 cards pequeñas con borde dorado. Contenido en arrays editables al inicio del archivo.
+- **RecognitionCards:** 3 secciones (Oficiales, Extraoficiales, Inevitables) con cards de borde dorado, glow hover, imagen por card en la parte superior, Astroid centrado en la base. Contenido en arrays editables al inicio del archivo.
 
 ## Notas
 

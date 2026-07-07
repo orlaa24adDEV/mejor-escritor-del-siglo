@@ -68,4 +68,4 @@ src/
 - **InformationSection** con 5 columnas de estadísticas
 - **Footer** con 4 columnas, iconos Astroid como separadores y enlaces a redes sociales
 - **Cronología** con línea temporal vertical dorada, 17 entradas alternando izquierda/derecha
-- **Reconocimiento** con 8 cards de borde dorado (5 grandes + 3 pequeñas)
+- **Reconocimiento** con 3 secciones de cards (Oficiales, Extraoficiales, Inevitables) con borde dorado, glow hover, imágenes superiores y Astroid en la base
