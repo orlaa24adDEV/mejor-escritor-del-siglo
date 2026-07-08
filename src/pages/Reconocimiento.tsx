@@ -1,4 +1,4 @@
-import { Astroid } from "lucide-react"
+import { Astroid, ArrowDown } from "lucide-react"
 import RecognitionCards from "@/sections/RecognitionCards"
 
 function Reconocimiento() {
@@ -25,6 +25,7 @@ function Reconocimiento() {
               </p>
           </div>
         </div>
+        <ArrowDown className="absolute left-1/2 -translate-x-1/2 bottom-50 text-dorado h-10 w-10 animate-bounce" />
       </section>
       <RecognitionCards />
     </>
