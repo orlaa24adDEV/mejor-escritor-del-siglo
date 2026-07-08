@@ -28,7 +28,7 @@ src/
 ├── assets/           # imágenes (logo, pose)
 ├── components/       # Header, Footer, Button, Logo
 ├── pages/            # 7 páginas (una por ruta)
-├── sections/         # HeroSection, InformationSection, TimelineSection, RecognitionCards
+├── sections/         # HeroSection, InformationSection, TimelineSection, RecognitionCards, PoetryBooks
 ├── App.tsx           # routing
 ├── main.tsx          # entry point (BrowserRouter)
 └── index.css         # Tailwind + @theme
@@ -40,11 +40,11 @@ src/
 |------|--------|
 | `/` | Inicio |
 | `/cronologia` | Cronología |
-| `/obra-maestra` | Obra Maestra |
+| `/poesia` | Poesía |
+| `/narrativa` | Narrativa |
 | `/reconocimiento` | Reconocimiento |
-| `/manifiesto` | Manifiesto |
 | `/registro-historico` | Registro Histórico |
-| `/correspondencia` | Correspondencia |
+| `/contacto` | Contacto |
 
 ## Conventions
 
@@ -80,10 +80,11 @@ Ej: `text-negro`, `bg-marfil`, `border-dorado`.
 
 - **Header:** fixed, fondo negro, borde dorado inferior. Logo absolut posicionado (`top-0`) independiente del tamaño del header. NavLinks con active state en `text-dorado`.
 - **Logo:** componente independiente, renderiza imagen dentro de un `Link` a `/`.
-- **Button:** acepta prop `to` para renderizar como `Link` de react-router. Estilo: `bg-transparent border border-dorado text-dorado font-serif`.
+- **Button:** acepta prop `to` para renderizar como `Link` de react-router. Si `to` empieza con `http`, renderiza `<a>` externo. Estilo: `bg-transparent border border-dorado text-dorado font-serif`.
 - **Footer:** 4 columnas flex con iconos `Astroid` como separadores. Contenido variable por columna (estadísticas, versión, compatibilidad, redes sociales).
 - **TimelineSection:** línea temporal vertical dorada centrada, contenido alterna izquierda/derecha, datos en array editable.
 - **RecognitionCards:** 3 secciones (Oficiales, Extraoficiales, Inevitables) con cards de borde dorado, glow hover, imagen por card en la parte superior, Astroid centrado en la base. Contenido en arrays editables al inicio del archivo.
+- **PoetryBooks:** 4 libros con imagen cuadrada (600px) a la izquierda, reproductor de video vertical (360px, 9:16) con controles custom (play/pause, volumen), texto explicativo, separadores Astroid y botón de compra externo.
 
 ## Notas
 
