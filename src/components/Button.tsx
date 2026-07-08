@@ -11,6 +11,9 @@ function Button({ children, to }: ButtonProps) {
     'font-serif bg-transparent text-dorado border border-dorado px-10 py-4 text-base tracking-wide uppercase inline-block'
 
   if (to) {
+    if (to.startsWith('http')) {
+      return <a href={to} target="_blank" rel="noopener noreferrer" className={className}>{children}</a>
+    }
     return <Link to={to} className={className}>{children}</Link>
   }
 

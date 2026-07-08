@@ -5,6 +5,7 @@ import PoemasHoguera from "@/assets/PoemasHoguera.png"
 import PaisCuerpo from "@/assets/paisCuerpo.png"
 import MejorPoesia from "@/assets/mejorPoesiaDecada.png"
 import VideoPrueba from "@/assets/videoPrueba.mp4"
+import Button from "@/components/Button"
 
 const booksData = [
   {
@@ -141,10 +142,15 @@ function PoetryBooks() {
                 <VideoPlayer src={book.videoSrc || undefined} />
               </div>
             </div>
-            <div className="mt-12">
+            <div className="mt-12 text-center">
               <h2 className="font-serif text-3xl text-dorado mb-4">{book.title}</h2>
               <p className="font-serif text-2xl text-marfil leading-relaxed">{book.text}</p>
             </div>
+            {(i === 1 || i === 2) && (
+              <div className="flex justify-center p-30 pb-5">
+              <Button to="https://www.amazon.de/amz-books/store?node=530886031&storeType=browse&filters=v1%3AFORMAT%5Bkindle_edition%5D&ie=UTF8&ccs_id=94661c71-5cf1-46c5-b589-738f2162b111">Adquirir un ejemplar</Button>
+              </div>
+            )}
           </div>
         ))}
       </div>
