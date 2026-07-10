@@ -11,4 +11,3 @@ function Logo() {
 }
 
 export default Logo
-3
