@@ -78,14 +78,29 @@ Ej: `text-negro`, `bg-marfil`, `border-dorado`.
 
 ## Componentes clave
 
-- **Header:** fixed, fondo negro, borde dorado inferior. Logo absolut posicionado (`top-0`) independiente del tamaño del header. NavLinks con active state en `text-dorado`.
+- **Header:** fixed, fondo negro, borde dorado inferior. Logo absolut posicionado (`top-0`) independiente del tamaño del header. NavLinks con active state en `text-dorado`. Menú hamburguesa overlay fullscreen en mobile (<lg) con cierre al hacer click en link.
 - **Logo:** componente independiente, renderiza imagen dentro de un `Link` a `/`.
 - **Button:** acepta prop `to` para renderizar como `Link` de react-router. Si `to` empieza con `http`, renderiza `<a>` externo. Estilo: `bg-transparent border border-dorado text-dorado font-serif`.
-- **Footer:** 4 columnas flex con iconos `Astroid` como separadores. Contenido variable por columna (estadísticas, versión, compatibilidad, redes sociales).
-- **TimelineSection:** línea temporal vertical dorada centrada, contenido alterna izquierda/derecha, datos en array editable.
-- **RecognitionCards:** 3 secciones (Oficiales, Extraoficiales, Inevitables) con cards de borde dorado, glow hover, imagen por card en la parte superior, Astroid centrado en la base. Contenido en arrays editables al inicio del archivo.
-- **PoetryBooks:** 4 libros con imagen cuadrada (600px) a la izquierda, reproductor de video vertical (360px, 9:16) con controles custom (play/pause, volumen), texto explicativo, separadores Astroid y botón de compra externo.
-- **NarrativeBooks:** libro único con imagen (600px) + video vertical (360px, 9:16) con controles custom, texto explicativo y botón de compra externo.
+- **Footer:** 4 columnas flex con iconos `Astroid` como separadores. Contenido variable por columna (estadísticas, versión, compatibilidad, redes sociales). Responsive con `flex-wrap` y Astroids ocultos en mobile.
+- **TimelineSection:** línea temporal vertical dorada centrada, contenido alterna izquierda/derecha en desktop, todo a izquierda en mobile. Datos en array editable.
+- **RecognitionCards:** 3 secciones (Oficiales, Extraoficiales, Inevitables) con cards de borde dorado, glow hover, imagen por card en la parte superior, Astroid centrado en la base. Grid responsive (`grid-cols-1 sm:2 md:3 lg:4 xl:5` para OFICIALES). Contenido en arrays editables al inicio del archivo.
+- **PoetryBooks:** 4 libros con imagen cuadrada (600px) a la izquierda, reproductor de video vertical (360px, 9:16) con controles custom (play/pause, volumen), texto explicativo, separadores Astroid y botón de compra externo. Layout apilado en mobile.
+- **NarrativeBooks:** libro único con imagen (600px) + video vertical (360px, 9:16) con controles custom, texto explicativo y botón de compra externo. Layout apilado en mobile.
+
+## Responsive
+
+- **Breakpoints:** Tailwind default (sm 640, md 768, lg 1024, xl 1280)
+- **Header toggles:** `<lg` menú hamburguesa; `lg+` navegación horizontal desktop
+- **Secciones hero:** `pt-52 md:pt-64 lg:pt-72`, paddings laterales `px-6 md:px-20 lg:px-80`, layout `flex-col lg:flex-row`
+- **Contenedores internos:** `max-w-6xl xl:max-w-[1600px]` (Timeline, PoetryBooks, NarrativeBooks, RecognitionCards)
+- **Timeline:** linea en `left-4 md:left-1/2`, astroids en `left-4 md:left-1/2 -translate-x-1/2`, texto con `pl-12 md:pl-0`
+- **Cards (OFICIALES):** `grid-cols-1 sm:2 md:3 lg:4 xl:5 gap-8`
+- **Textos:** escalados con `text-base md:text-lg lg:text-2xl`, títulos `text-4xl md:text-6xl lg:text-7xl`
+- **ArrowDown:** `bottom-10 md:bottom-16` con separador `h-20 md:h-32` entre secciones
+- **HeroSection bg:** `bg-center lg:bg-[left_300px_center]` (centrado en mobile, offset en desktop)
+- **InformationSection:** `grid-cols-2 sm:3 lg:5`
+- **Footer:** `flex-wrap md:flex-nowrap`, Astroids `hidden md:flex`
+- **Vite server:** `host: '0.0.0.0'` + `allowedHosts: true` en `vite.config.ts` para red local
 
 ## Notas
 
