@@ -90,11 +90,11 @@ const timelineData = [
 
 function TimelineSection() {
   return (
-    <section className="bg-negro relative pb-50 px-24">
-      <div className="relative mx-auto" style={{ width: "1600px" }}>
-        <div className="absolute left-1/2 top-0 bottom-0 w-[2px] bg-dorado -translate-x-1/2 z-0" />
+    <section className="bg-negro relative pb-50 px-6 md:px-24">
+      <div className="relative mx-auto w-full max-w-6xl xl:max-w-[1600px]">
+        <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-[2px] bg-dorado md:-translate-x-1/2 z-0" />
 
-        <div className="relative flex flex-col gap-24">
+        <div className="relative flex flex-col gap-12 lg:gap-24">
           {timelineData.map((text, index) => {
             const isLeft = index % 2 === 0
 
@@ -102,28 +102,28 @@ function TimelineSection() {
               <div key={index} className="relative flex items-start min-h-[160px]">
                 {isLeft ? (
                   <>
-                    <div className="flex-1 text-right pr-20">
-                      <span className="font-serif text-4xl text-dorado block">{text.year}</span>
-                      <h3 className="font-serif text-2xl text-piedra mt-2">{text.title}</h3>
-                      <p className="font-serif text-2xl text-marfil mt-2 leading-relaxed">
+                    <div className="flex-1 text-left md:text-right md:pr-20 pl-12 md:pl-0">
+                      <span className="font-serif text-2xl md:text-3xl lg:text-4xl text-dorado block">{text.year}</span>
+                      <h3 className="font-serif text-lg md:text-xl lg:text-2xl text-piedra mt-2">{text.title}</h3>
+                      <p className="font-serif text-base md:text-lg lg:text-2xl text-marfil mt-2 leading-relaxed">
                         {text.text}
                       </p>
                     </div>
-                    <div className="absolute left-1/2 -translate-x-1/2 z-10">
-                      <Astroid className="text-dorado h-6 w-6" />
+                    <div className="absolute left-4 md:left-1/2 -translate-x-1/2 z-10">
+                      <Astroid className="text-dorado h-5 w-5 md:h-6 md:w-6" />
                     </div>
-                    <div className="flex-1" />
+                    <div className="hidden md:block flex-1" />
                   </>
                 ) : (
                   <>
-                    <div className="flex-1" />
-                    <div className="absolute left-1/2 -translate-x-1/2 z-10">
-                      <Astroid className="text-dorado h-6 w-6" />
+                    <div className="hidden md:block flex-1" />
+                    <div className="absolute left-4 md:left-1/2 -translate-x-1/2 z-10">
+                      <Astroid className="text-dorado h-5 w-5 md:h-6 md:w-6" />
                     </div>
-                    <div className="flex-1 text-left pl-20">
-                      <span className="font-serif text-4xl text-dorado block">{text.year}</span>
-                      <h3 className="font-serif text-2xl text-piedra mt-2">{text.title}</h3>
-                      <p className="font-serif text-2xl text-marfil mt-2 leading-relaxed">
+                    <div className="flex-1 text-left md:pl-20 pl-12">
+                      <span className="font-serif text-2xl md:text-3xl lg:text-4xl text-dorado block">{text.year}</span>
+                      <h3 className="font-serif text-lg md:text-xl lg:text-2xl text-piedra mt-2">{text.title}</h3>
+                      <p className="font-serif text-base md:text-lg lg:text-2xl text-marfil mt-2 leading-relaxed">
                         {text.text}
                       </p>
                     </div>

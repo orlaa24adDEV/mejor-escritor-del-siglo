@@ -99,16 +99,16 @@ function VideoPlayer({ src }: VideoPlayerProps) {
 
 function NarrativeBooks() {
   return (
-    <section className="bg-negro px-24 py-10 pb-50">
-      <div className="mx-auto flex flex-col gap-24" style={{ width: "1400px" }}>
+    <section className="bg-negro px-6 md:px-24 py-10 pb-50">
+      <div className="mx-auto flex flex-col gap-12 lg:gap-24 w-full max-w-6xl xl:max-w-[1600px]">
         {booksData.map((book, i) => (
           <div key={i} className="pt-8">
             <div className="relative mb-16">
               <div className="border-t-1 border-dorado" />
               <Astroid className="absolute left-1/2 -translate-x-1/2 -top-3 text-dorado h-6 w-6" />
             </div>
-            <div className="flex gap-40 justify-center">
-              <div className="w-[600px] aspect-square">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-40 items-center justify-center">
+              <div className="w-full lg:w-[600px] max-w-[600px] aspect-square">
                 {book.img ? (
                   <img src={book.img} alt={book.title} className="w-full h-full object-cover shadow-[0_0_80px_rgba(176,141,87,0.25)] rounded-lg" />
                 ) : (
@@ -117,16 +117,16 @@ function NarrativeBooks() {
                   </div>
                 )}
               </div>
-              <div className="w-[360px] shrink-0">
+              <div className="w-full lg:w-[360px] max-w-[360px] shrink-0">
                 <VideoPlayer src={book.videoSrc || undefined} />
               </div>
             </div>
             <div className="mt-12 text-center">
-              <h2 className="font-serif text-3xl text-dorado mb-4">{book.title}</h2>
-              <p className="font-serif text-2xl text-marfil leading-relaxed">{book.text}</p>
+              <h2 className="font-serif text-2xl md:text-3xl text-dorado mb-4">{book.title}</h2>
+              <p className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed">{book.text}</p>
             </div>
             {(i === 1 || i === 2) && (
-              <div className="flex justify-center p-30 pb-5">
+              <div className="flex justify-center p-10 md:p-30 pb-5">
               <Button to="https://www.amazon.de/amz-books/store?node=530886031&storeType=browse&filters=v1%3AFORMAT%5Bkindle_edition%5D&ie=UTF8&ccs_id=94661c71-5cf1-46c5-b589-738f2162b111">Adquirir un ejemplar</Button>
               </div>
             )}
