@@ -30,7 +30,7 @@ src/
 ├── assets/            # imágenes y videos
 ├── components/        # Header, Footer, Button, Logo
 ├── pages/             # 7 páginas (una por ruta)
-├── sections/          # HeroSection, InformationSection, TimelineSection, RecognitionCards, PoetryBooks
+├── sections/          # HeroSection, InformationSection, TimelineSection, RecognitionCards, PoetryBooks, NarrativeBooks
 ├── App.tsx            # routing
 ├── main.tsx           # entry point (BrowserRouter)
 └── index.css          # Tailwind + theme personalizado
@@ -68,3 +68,4 @@ src/
 - **Cronología** con línea temporal vertical dorada, 17 entradas alternando izquierda/derecha
 - **Reconocimiento** con 3 secciones de cards (Oficiales, Extraoficiales, Inevitables) con borde dorado, glow hover, imágenes por card y Astroid en la base
 - **Poesía** con 4 libros organizados imagen (600px) + video reproductor vertical (360px, 9:16), texto explicativo, y botón de compra externo
+- **Narrativa** con libro (imagen + video) y sección de imagen central con título y texto explicativo

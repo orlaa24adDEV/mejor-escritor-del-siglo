@@ -28,7 +28,7 @@ src/
 ├── assets/           # imágenes (logo, pose)
 ├── components/       # Header, Footer, Button, Logo
 ├── pages/            # 7 páginas (una por ruta)
-├── sections/         # HeroSection, InformationSection, TimelineSection, RecognitionCards, PoetryBooks
+├── sections/         # HeroSection, InformationSection, TimelineSection, RecognitionCards, PoetryBooks, NarrativeBooks
 ├── App.tsx           # routing
 ├── main.tsx          # entry point (BrowserRouter)
 └── index.css         # Tailwind + @theme
@@ -85,6 +85,7 @@ Ej: `text-negro`, `bg-marfil`, `border-dorado`.
 - **TimelineSection:** línea temporal vertical dorada centrada, contenido alterna izquierda/derecha, datos en array editable.
 - **RecognitionCards:** 3 secciones (Oficiales, Extraoficiales, Inevitables) con cards de borde dorado, glow hover, imagen por card en la parte superior, Astroid centrado en la base. Contenido en arrays editables al inicio del archivo.
 - **PoetryBooks:** 4 libros con imagen cuadrada (600px) a la izquierda, reproductor de video vertical (360px, 9:16) con controles custom (play/pause, volumen), texto explicativo, separadores Astroid y botón de compra externo.
+- **NarrativeBooks:** libro único con imagen (600px) + video vertical (360px, 9:16) con controles custom, texto explicativo y botón de compra externo.
 
 ## Notas
 
