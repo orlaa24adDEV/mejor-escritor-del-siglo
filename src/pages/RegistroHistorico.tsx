@@ -169,8 +169,8 @@ export default function RegistroHistorico() {
                     <img
                       src={item.img}
                       alt={item.titulo}
-                      className="w-full rounded-md"
-                      style={i === actual ? { boxShadow: "0 0 100px rgba(176,141,87,0.6)", cursor: "pointer" } : undefined}
+                      className="w-full rounded-xl"
+                      style={i === actual ? { boxShadow: "0 0 150px rgba(176,141,87,0.6)", cursor: "pointer" } : undefined}
                       onClick={i === actual ? () => setImagenAmpliada(item.img) : undefined}
                     />
                   </div>
@@ -185,7 +185,7 @@ export default function RegistroHistorico() {
             </button>
           </div>
           <div className="hidden lg:block bg-negro/90 px-6 py-4 mt-6 rounded-lg">
-            <p className="font-serif text-dorado text-lg md:text-2xl text-center">
+            <p className="font-serif text-marfil text-lg md:text-2xl text-center">
               {carrusel[actual].titulo.split(" - ").map((part, i) => (
                 <>{i > 0 && <br />}{part}</>
               ))}

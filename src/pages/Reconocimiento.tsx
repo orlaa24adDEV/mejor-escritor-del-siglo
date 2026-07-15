@@ -28,7 +28,7 @@ function Reconocimiento() {
               </p>
           </div>
         </div>
-        <ArrowDown className="absolute left-1/2 -translate-x-1/2 bottom-5 md:bottom-10 text-dorado h-10 w-10 animate-bounce" />
+        <ArrowDown className="absolute left-1/2 -translate-x-1/2 bottom-2 md:bottom-10 text-dorado h-10 w-10 animate-bounce" />
       </section>
       <RecognitionCards />
     </>
