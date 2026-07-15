@@ -1,12 +1,15 @@
 import { Astroid, ArrowDown } from "lucide-react"
 import RecognitionCards from "@/sections/RecognitionCards"
+import Trofeo from "@/assets/trofeos.png"
 
 function Reconocimiento() {
   return (
     <>
-      <section className="min-h-svh bg-negro flex items-start justify-left px-6 md:px-20 lg:px-80 pt-52 md:pt-64 lg:pt-72 bg-cover relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-negro/80 to-transparent" />
-        <div className="relative z-10 w-full text-center">
+      <section
+        className="min-h-svh flex items-start justify-left px-6 md:px-20 lg:px-70 pt-80 md:pt-72 lg:pt-90 bg-cover bg-center lg:bg-[left 50px_center] relative bg-negro"
+        style={{ backgroundImage: `url(${Trofeo})` }}>
+        <div className="absolute inset-0" />
+        <div className="relative z-10 w-full text-center bg-negro/70 p-6 md:p-10 rounded-xl">
           <div className="flex-1 space-y-6">
             <div className="relative">
               <p className="font-serif text-piedra text-base tracking-widest uppercase border-b-1 border-dorado pb-10">
@@ -25,7 +28,7 @@ function Reconocimiento() {
               </p>
           </div>
         </div>
-        <ArrowDown className="absolute left-1/2 -translate-x-1/2 bottom-10 md:bottom-50 text-dorado h-10 w-10 animate-bounce" />
+        <ArrowDown className="absolute left-1/2 -translate-x-1/2 bottom-5 md:bottom-10 text-dorado h-10 w-10 animate-bounce" />
       </section>
       <RecognitionCards />
     </>

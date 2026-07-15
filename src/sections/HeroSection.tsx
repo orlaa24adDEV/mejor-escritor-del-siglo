@@ -5,7 +5,7 @@ import Button from '@/components/Button'
 function HeroSection() {
   return (
     <section
-      className="min-h-svh bg-negro flex items-start justify-left px-6 md:px-20 lg:px-70 pt-52 md:pt-64 lg:pt-72 bg-cover bg-center lg:bg-[left_300px_center] border-b-1 border-dorado relative"
+      className="min-h-svh bg-negro flex items-start justify-left px-6 md:px-20 lg:px-70 pt-64 md:pt-72 lg:pt-80 bg-cover bg-center lg:bg-[left_300px_center] border-b-1 border-dorado relative"
       style={{ backgroundImage: `url(${Pose})` }}
     >
       <div className="absolute inset-0 bg-gradient-to-r from-negro/80 to-transparent" />

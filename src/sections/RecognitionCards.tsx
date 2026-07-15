@@ -71,7 +71,7 @@ const InevitablesOtherCards = [
 
 function RecognitionCards() {
   return (
-    <section className="bg-negro px-6 md:px-24 pb-20">
+    <section className="bg-negro px-6 md:px-24 pb-20 mt-20 md:mt-32">
       <div className="mx-auto flex flex-col items-center gap-8 w-full max-w-7xl xl:max-w-[1600px]">
         <div className="flex flex-col items-center">
           <h1 className="font-serif text-2xl md:text-3xl lg:text-4xl text-dorado">

@@ -4,7 +4,7 @@ import PoetryBooks from "@/sections/PoetryBooks"
 function Poesia() {
   return (
     <>
-      <section className="min-h-svh bg-negro flex items-start justify-left px-6 md:px-20 lg:px-80 pt-52 md:pt-64 lg:pt-72 bg-cover relative">
+      <section className="min-h-svh bg-negro flex items-start justify-left px-6 md:px-20 lg:px-80 pt-64 md:pt-72 lg:pt-80 bg-cover relative">
         <div className="absolute inset-0 bg-gradient-to-r from-negro/80 to-transparent" />
         <div className="relative z-10 flex flex-col lg:flex-row w-full gap-8 lg:gap-16 text-center">
           <div className="flex-1 space-y-6">
