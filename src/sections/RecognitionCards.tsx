@@ -13,28 +13,28 @@ import rechazar from "@/assets/rechazar.png"
 const largeCards = [
   {
     img: diploma,
-    title: "Declarado \"Promesa Retroactiva de las Letras Argentinas 2026\", Instituto Polar de Literatura, Base San Martín, Antártida.",
+    title: "\"Promesa Retroactiva de las Letras Argentinas\", Instituto Polar de Literatura, Antártida.",
     text: "Distinción concedida con efecto retroactivo desde 2012.",
   },
   {
     img: diploma2,
-    title: "\"Faja de honor a la Grandeza Preventiva\", North American Institute for Future Classics, Princeton, New Jersey, Estados Unidos.",
+    title: "\"Faja de honor a la Grandeza Preventiva\", North American Institute for Future Classics, Princeton.",
     text: "Otorgado a personalidades cuyo legado resulta estadísticamente inevitable.",
   },
   {
     img: diploma3,
-    title: "Paloma de platino al Autor Patrimonial en Potencia, Observatorio Continental del Legado Literario, Gaborone, Botsuana",
+    title: "Paloma de platino al Autor Patrimonial en Potencia, Observatorio Continental del Legado Literario, Gaborone.",
     text: "El jurado destacó \"la extraordinaria capacidad del candidato para ser considerado un clásico mientras todavía corrige manuscritos\".",
   },
   {
     img: diploma4,
-    title: "Instituto Internacional para el Estudio Fenomenológico (IIEF), Hobart, Tasmania, Australia.",
+    title: "Instituto Internacional para el Estudio Fenomenológico.",
     text: "Declara al autor como \"Objeto de estudio de sí mismo\".",
   },
   {
     img: diploma5,
-    title: "Comisión Permanente para la Conservación del Asombro (CPCA) Lhasa, Tíbet.",
-    text: "Declara al autor como “Asombroso”. Mantiene abierta la investigación.",
+    title: "Comisión Permanente para la Conservación del Asombro.",
+    text: "Declara al autor como “Asombroso”.",
   },
 ]
 
@@ -42,17 +42,17 @@ const smallCards = [
   {
     img: diploma6,
     title: "Distincion menor 1",
-    text: "“Caballero Honorario” de la Orden del Punto y Coma, Buenos Aires. “Custodio Vitalicio de la Metáfora Bien Construida”, Academia Literaria de Ushguli, en el Cáucaso georgiano.",
+    text: "“Caballero Honorario” de la Orden del Punto y Coma, Buenos Aires. “Custodio Vitalicio de la Metáfora Bien Construida”, Academia Literaria de Ushguli.",
   },
   {
     img: diploma7,
     title: "Distincion menor 2",
-    text: "“Embajador Plenipotenciario del Verso Preciso”, Instituto para la Medición del Lirismo, Kioto, Japón. Autorizado por la Casa Real Argentina para utilizar el plural mayestático en entrevistas.",
+    text: "“Embajador Plenipotenciario del Verso Preciso”, Instituto para la Medición del Lirismo, Kioto.",
   },
   {
     img: diploma8,
     title: "Distincion menor 3",
-    text: "Mayor concentración de solemnidad registrada en una fotografía promocional. (Renovación automática mientras continúe utilizando chaleco).",
+    text: "Mayor concentración de solemnidad en una fotografía promocional. (Renovación automática mientras continúe utilizando chaleco).",
   },
 ]
 
