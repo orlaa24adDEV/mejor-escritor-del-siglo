@@ -15,8 +15,9 @@ Landing page del mejor escritor del siglo. Proyecto web en español.
 |---------|---------------|
 | `react` / `react-dom` | ^19.2 |
 | `react-router-dom` | ^7 |
-| `lucide-react` | Iconos (Astroid, Sparkle, Play, Pause, X, ChevronLeft, ChevronRight, etc.) |
-| `react-icons` | Iconos de redes sociales |
+| `lucide-react` | Iconos (Astroid, Sparkle, X, ChevronLeft, ChevronRight, CreditCard, CheckCircle, Loader, etc.) |
+| `react-icons` | Iconos de redes sociales (FaInstagram, FaTiktok, etc.) |
+| `@emailjs/browser` | Envío de formulario de contacto vía EmailJS |
 | `tailwind-animations` | ^1.0 (midudev) |
 | `tailwindcss` / `@tailwindcss/vite` | ^4 |
 | `typescript` | ~6.0 |
@@ -33,7 +34,8 @@ src/
 ├── sections/          # HeroSection, InformationSection, TimelineSection, RecognitionCards, PoetryBooks, NarrativeBooks
 ├── App.tsx            # routing
 ├── main.tsx           # entry point (BrowserRouter)
-└── index.css          # Tailwind + theme personalizado (body bg: #0D0D0D)
+├── vite-env.d.ts      # tipos para import.meta.env
+└── index.css          # Tailwind + theme personalizado (body bg: #0D0D0D, animación levitate)
 ```
 
 ## Rutas
@@ -57,11 +59,22 @@ src/
 | Preview | `npm run preview` |
 | Lint | `npm run lint` |
 
+## Variables de entorno
+
+Copiar `.env.example` a `.env` y completar:
+
+| Variable | Descripción |
+|----------|-------------|
+| `VITE_EMAILJS_SERVICE_ID` | Service ID de EmailJS |
+| `VITE_EMAILJS_TEMPLATE_ID` | Template ID de EmailJS |
+| `VITE_EMAILJS_PUBLIC_KEY` | Public Key de EmailJS |
+
 ## Diseño
 
 - **Paleta:** negro (#0D0D0D), marfil (#F4F1EA), dorado (#B08D57), piedra (#6F6F6F), borgoña (#4A1F24)
 - **Body bg:** negro (#0D0D0D) para evitar espacios blancos entre secciones
 - **Tipografía:** Cormorant Garamond (serif) + Inter (sans) vía Google Fonts
+- **Animación personalizada:** `levitate` (flotación suave 1s) para hover en cards
 - **Header fijo** con menú hamburguesa en mobile (overlay fullscreen), logo independiente solapando el borde superior
 - **HeroSection** con imagen de fondo, degradado y texto centrado; background position `center` en mobile, `left 300px center` en desktop
 - **InformationSection** con grid responsive (1→2→3→5 columnas)
@@ -76,6 +89,10 @@ src/
   - Título de pieza visible debajo del carrusel en ambos modos
   - **Lightbox modal:** click/tap en imagen activa abre overlay fullscreen con imagen ampliada; cierre con botón X, click fuera o tecla Escape
   - Gráfica de estadísticas también abre lightbox al click
+- **Contacto** con dos columnas responsive:
+  - **Formulario de contacto:** Nombre, Edad, Correo, Mensaje → envío vía EmailJS con spinner de carga y mensaje de éxito. Iconos Instagram/TikTok al pie.
+  - **Donación:** formulario con Nombre, Correo, Cantidad, Mensaje + link a Stripe Payment Link (tarjeta/PayPal/transferencia) con animación levitate al hover
+  - Inputs con `focus:shadow` dorado y Astroid decorativo en títulos
 
 ## Responsive
 
@@ -87,4 +104,5 @@ src/
 - **Cards:** `grid-cols-1 sm:2 md:3 lg:4 xl:5` para OFICIALES
 - **Textos:** tamaños escalonados con `text-base md:text-lg lg:text-2xl` etc.
 - **Carrusel mobile:** cards centradas con `left-[12%] right-[12%]`, arrastre con Pointer Events + prevención de scroll global
+- **Formularios:** apilados en mobile (`flex-col`), dos columnas en desktop (`lg:flex-row`)
 - **Dev server:** `host: '0.0.0.0'` + `allowedHosts: true` en vite.config.ts para acceso desde la red local
