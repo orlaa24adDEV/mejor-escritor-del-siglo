@@ -103,6 +103,40 @@ Copiar `.env.example` a `.env` y completar:
 - **Timeline:** sin alternancia en mobile (todo a la izquierda), línea dorada y puntos visibles
 - **Cards:** `grid-cols-1 sm:2 md:3 lg:4 xl:5` para OFICIALES
 - **Textos:** tamaños escalonados con `text-base md:text-lg lg:text-2xl` etc.
-- **Carrusel mobile:** cards centradas con `left-[12%] right-[12%]`, arrastre con Pointer Events + prevención de scroll global
+- **Carrusel mobile:** cards al 90% ancho (`left-[5%] right-[5%]`), arrastre con Pointer Events, `touch-action: none` en cada card y listener capture-phase en document para evitar scroll global; `overflow-hidden` en el contenedor para evitar desbordamiento horizontal
 - **Formularios:** apilados en mobile (`flex-col`), dos columnas en desktop (`lg:flex-row`)
 - **Dev server:** `host: '0.0.0.0'` + `allowedHosts: true` en vite.config.ts para acceso desde la red local
+
+## Git LFS
+
+Los archivos `.mp4` (videos de poesía y narrativa) superan el límite de 100 MB de GitHub. Se configuran con **Git Large File Storage** para que solo se suban punteros ligeros al repositorio.
+
+```bash
+# Instalar (ya configurado en este proyecto)
+git lfs install
+
+# Trackear archivos .mp4
+git lfs track "src/assets/*.mp4"
+```
+
+Los .mp4 se almacenan en el LFS de GitHub y se descargan automáticamente al clonar.
+
+## Changelog
+
+### 2026-07-23
+
+**Corrección ortográfica masiva** — 28 errores corregidos en 12 archivos:
+- Tildes faltantes: época, Poesía, CRONOLOGÍA, FENÓMENO, POESÍA, OBSESIÓN, INTRODUCCIÓN, ESTADÍSTICAS, HISTÓRICO, VERSIÓN, ACTUALIZACIÓN, Comunicación, Artístico, Finalización, Cultivación, Publicación, Distinción, EVOLUCIÓN, etc.
+- Errores de escritura: `piedas` → `pierdas`, `INSITUCIONAL` → `INSTITUCIONAL`, `PROXIMAMMENTE` → `PRÓXIMAMENTE`, `ACTIUALIZACION` → `ACTUALIZACIÓN`, `critic` → `crítica`
+- Correcciones gramaticales: `Esta decidio` → `Está decidido a`, `Contactame y se` → `Contáctame y sé`
+
+**Carrusel responsive (RegistroHistórico.tsx)** — ampliado y arreglado:
+- Tarjetas del carrusel mobile: de 60% a 90% de ancho para mejor visualización de imágenes
+- Corregido scroll horizontal: se agregó `overflow-hidden` al contenedor del carrusel
+- Corregido bug de arrastre: se agregó `touch-action: none` y `user-select: none` directamente en cada tarjeta para evitar que el browser arrastre la página al hacer swipe
+- Listener `touchmove` cambiado a fase de captura (`capture: true`) para asegurar `preventDefault()` antes que otros handlers
+
+**Git LFS** — configuración y migración:
+- Se instaló Git LFS y se configuró `.gitattributes` para trackear `src/assets/*.mp4`
+- Se reescribió el historial completo con `git lfs migrate import` para convertir los .mp4 en punteros LFS desde el primer commit
+- Push exitoso a GitHub (461 MB de objetos LFS subidos)
