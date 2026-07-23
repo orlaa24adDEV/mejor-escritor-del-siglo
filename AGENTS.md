@@ -1,6 +1,6 @@
 # AGENTS.md — mejor-escritor-del-siglo
 
-Landing page del mejor escritor del siglo. Español.
+Landing page del mejor escritor del siglo. Multilingüe (es, en, pt, fr).
 
 ## Stack
 
@@ -11,6 +11,9 @@ Landing page del mejor escritor del siglo. Español.
 - **lucide-react** — iconos ligeros (Astroid, Sparkle, etc.)
 - **react-icons** — iconos de redes sociales (FaFacebook, FaInstagram, FaGithub)
 - **tailwind-animations** (midudev) — animaciones CSS (instalado, sin usar activamente)
+- **i18next** + **react-i18next** — internacionalización
+- **i18next-browser-languagedetector** — auto-detección de idioma del navegador
+- **i18next-http-backend** — carga de archivos de traducción desde `public/locales/`
 
 ## Commands
 
@@ -26,13 +29,45 @@ Landing page del mejor escritor del siglo. Español.
 ```
 src/
 ├── assets/           # imágenes (logo, pose)
-├── components/       # Header, Footer, Button, Logo
+├── components/       # Header, Footer, Button, Logo, LanguageSwitcher
 ├── pages/            # 7 páginas (una por ruta)
 ├── sections/         # HeroSection, InformationSection, TimelineSection, RecognitionCards, PoetryBooks, NarrativeBooks
 ├── App.tsx           # routing
 ├── main.tsx          # entry point (BrowserRouter)
+├── i18n.ts           # configuración i18next
 └── index.css         # Tailwind + @theme
 ```
+
+## Idiomas (i18n)
+
+| Código | Idioma |
+|--------|--------|
+| `es` | Español (idioma por defecto, fallback) |
+| `en` | English |
+| `pt` | Português |
+| `fr` | Français |
+
+Archivos de traducción en `public/locales/{lng}/translation.json`. Cada archivo contiene todos los strings del sitio.
+
+### Uso en componentes
+
+```tsx
+import { useTranslation } from 'react-i18next'
+
+function MiComponente() {
+  const { t } = useTranslation()
+  return <h1>{t('hero.inicio.titulo1')}</h1>
+}
+```
+
+### Convenciones i18n
+
+- **Nombres propios NO se traducen:** Franco Reinaldo Pou, Verde Sangre, Poemas en la hoguera, El país de tu cuerpo, Victimario, etc.
+- **Data arrays** (Timeline, RecognitionCards, PoetryBooks, NarrativeBooks): definir DENTRO del componente para que `t()` esté en scope.
+- **Selector de idioma:** componente `LanguageSwitcher` en `src/components/`, renderizado en el Header (desktop y mobile overlay).
+- **Fallback:** si falta una key, muestra el texto en español.
+- **Auto-detección:** `i18next-browser-languagedetector` detecta el idioma del navegador y guarda la elección del usuario en `localStorage`.
+- Para agregar un nuevo idioma: crear `public/locales/{codigo}/translation.json` y agregar el código a `supportedLngs` en `src/i18n.ts`.
 
 ## Rutas
 

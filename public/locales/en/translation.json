@@ -1,0 +1,287 @@
+{
+  "header": {
+    "nav": {
+      "inicio": "Home",
+      "cronologia": "Chronology",
+      "poesia": "Poetry",
+      "narrativa": "Narrative",
+      "reconocimiento": "Recognition",
+      "registroHistorico": "Historical Record",
+      "contacto": "Contact"
+    },
+    "menuAriaLabel": "Navigation menu"
+  },
+  "footer": {
+    "instituto": "INTERNATIONAL INSTITUTE",
+    "estudio": "FOR THE STUDY OF HIS LEGACY",
+    "fundado": "FOUNDED AND SUSTAINED BY HIMSELF",
+    "version": "SITE VERSION: 1.0",
+    "estado": "AUTHOR STATUS:",
+    "definitivo": "DEFINITIVE",
+    "compatibilidad": "COMPATIBILITY: ALL CENTURIES",
+    "ultima": "LAST UPDATE:",
+    "posteriority": "POSTERITY"
+  },
+  "hero": {
+    "inicio": {
+      "nombre": "FRANCO REINALDO POU",
+      "titulo1": "THE WRITER",
+      "titulo2": "OF THE CENTURY",
+      "subtitulo1": "Every era has an author who defines it.",
+      "subtitulo2": "He has decided to exaggerate.",
+      "boton": "Recognition"
+    }
+  },
+  "information": {
+    "palabras": "WORDS WRITTEN",
+    "civilizaciones": "CIVILIZATIONS INSPIRED",
+    "evolucion": "EVOLVING.",
+    "elegancia": "ELEGANCE LEVEL",
+    "escritores": "NUMBER OF BETTER WRITERS",
+    "sinRegistros": "NO RECORDS",
+    "revisado": "REVIEWED BY",
+    "historia": "HISTORY"
+  },
+  "common": {
+    "intro": "INTRODUCTION",
+    "enviar": "Send Message",
+    "enviando": "Sending...",
+    "adquirir": "Acquire a Copy"
+  },
+  "cronologia": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo1": "CHRONOLOGY",
+    "titulo2": "OF THE PHENOMENON",
+    "subtitulo1": "From 1996 to",
+    "subtitulo2": "ETERNITY",
+    "intro": "For centuries, great civilizations preserved records of wars, empires, scientific discoveries, and revolutions. This archive gathers the most significant events in the formation, development, and consolidation of the so-called Franco Reinaldo Pou Phenomenon. Although various historians insist on interpreting these events as the biography of an Argentine writer, recent research maintains that they actually constitute a record of the slow and inevitable advent of the greatest author of the 21st century."
+  },
+  "timeline": {
+    "eventos": {
+      "1996": {
+        "titulo": "November 1st.",
+        "texto": "Franco Reinaldo Pou is born in Buenos Aires, Argentina. History still does not know the consequences of this event, but it is known that it will mark a before and after in the history of world literature."
+      },
+      "1997_2011": {
+        "titulo": "Years without records",
+        "texto": "His father abandons the household. The information corresponding to these years presents significant inconsistencies. Some sources maintain that from a young age he displayed an excessive curiosity for too many disciplines and a sensitivity improper for his age. Others claim he could anticipate the arrival of visitors before they knocked on the door. There are testimonies according to which he conversed with people whose existence could never be corroborated. A particularly controversial episode recounts that, as a child, he was left in the care of two healers with alleged gifts of clairvoyance and the laying on of hands, who, without family authorization, baptized him and self-proclaimed themselves his godparents through a ritual whose validity continues to be debated by specialists. There is also a record of a morally grave incident: he deliberately broke a bird's egg during a game, immediately understood the nature of his act, and remained saddened for approximately one month. His grandmother, a defining figure of the period, used to introduce him to the past through ancient coins, music boxes, and poems recited daily."
+      },
+      "2012": {
+        "titulo": "Begins writing poetry and narrative.",
+        "texto": "Literature acknowledges receipt of his first works."
+      },
+      "2013": {
+        "titulo": "Verde Sangre",
+        "texto": "He completes a poetry book titled Verde Sangre. After evaluating it with a severity improper even for its author, he decides to edit it only to proceed to hide it in the most inaccessible corner of his house. During the same year he finishes a short story book that achieves an exceptional editorial feat: disappearing before existing. He meets Flora. Critics agree that this event profoundly modified his poetry."
+      },
+      "2014": {
+        "titulo": "End of high school",
+        "texto": "He finishes his secondary studies. He begins his relationship with Flora."
+      },
+      "2015": {
+        "titulo": "Start of Philosophy Degree",
+        "texto": "He abandons it shortly after to face an adverse economic phenomenon known as 'poverty'. For six months he practices the teaching of unknown languages. He also begins his first experiences with poetic recitation. Records from the period describe a voice still in an embryonic state, though already capable of producing unsettling silences among those present."
+      },
+      "2016": {
+        "titulo": "Start of Communication Degree",
+        "texto": "He abandons it to accept an ad honorem position at a library of uncertain geometry. Various testimonies assure that its corridors led simultaneously to everywhere and nowhere. He collaborates with the institution's magazine. There are unverified versions according to which he would have burned books to get through the winter. Upon finally finding the exit from the building, he submits his resignation. He completes Poemas en la hoguera."
+      },
+      "2017": {
+        "titulo": "Start of Literature Teaching Degree",
+        "texto": "He abandons it upon realizing that unhappiness could be institutionalized. He works briefly in a grain and legume shop. He finishes his first novel. He decides it does not yet deserve to exist publicly. The novel accepts the decision."
+      },
+      "2018": {
+        "titulo": "Start of Artistic Culture and Language Degree",
+        "texto": "He abandons the degree on the same day. Research indicates he made it as far as the bus stop before realizing he preferred to go back home. He finishes El país de tu cuerpo."
+      },
+      "2019": {
+        "titulo": "COVID-19 Pandemic Begins",
+        "texto": "The archive considers that this event had little impact compared to the author's creative processes."
+      },
+      "2020": {
+        "titulo": "Completion of Victimario",
+        "texto": "He travels with his mother to northern Argentina to accompany a family member in a terminal state. The national quarantine forces them to remain there. The family member passes away."
+      },
+      "2021": {
+        "titulo": "December 21st.",
+        "texto": "His grandmother passes away. Absolute catastrophe. Recorded torment level: Unprecedented."
+      },
+      "2022": {
+        "titulo": "Death of Lobo.",
+        "texto": "His dog, Lobo, passes away. He would later write the eponymous poem. Intense psychic suffering begins whose duration remains undetermined. He works as a bricklayer solely to subject his body to the severe test of scaffolding."
+      },
+      "2023": {
+        "titulo": "July 13th.",
+        "texto": "His father passes away. Franco Reinaldo Pou is disinherited. He responds by initiating a lawsuit. The archives classify the episode as 'unpleasant, though literarily promising'."
+      },
+      "2024": {
+        "titulo": "Cultivation of Patience.",
+        "texto": "He begins working as an administrative clerk solely with the goal of cultivating patience. Result obtained: Negative. Physical ailments associated with the psychic ones also appear, and their explanation remains pending."
+      },
+      "2025": {
+        "titulo": "Victimario Publication.",
+        "texto": "The author expresses considerable dissatisfaction. The novel, on the other hand, remains indifferent, so indifferent that it writes in approximately three months a counterpart that critics describe as 'glorious'. He holds his first book signing at the Buenos Aires International Book Fair. Recitation reaches its definitive form. Technical reports describe the phenomenon as a state of absolute lyricism. The consequences for the audience continue to be the subject of study."
+      },
+      "2026": {
+        "titulo": "Europe",
+        "texto": "He resigns from his job. He travels to Europe. He decides that there has been enough humility. He completes the writing of one of his most celebrated poetry books, whose title continues to be the subject of study. The epigraphists consulted agree that the original inscriptions were made from an exceptionally elevated degree of inspiration. Some preliminary reports speak, without the due scientific rigor, of a state of 'celestiality'. Researchers consider that this stage remains open and, for methodological reasons, they refuse to issue premature conclusions, but they promise updates."
+      }
+    }
+  },
+  "poesia": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo": "POETRY",
+    "subtitulo1": "EVERY TRUE WORK",
+    "subtitulo2": "IS BORN FROM AN OBSESSION",
+    "intro": "These books gather some of the most honest, violent, and luminous attempts to reach what language rarely grants: an instant of absolute beauty. They belong to different periods of the author and preserve, with greater or lesser fortune, the traces of that inexhaustible pursuit.",
+    "introFinal": "Let the performance begin:",
+    "sinVideo": "No video",
+    "imagenPendiente": "Image pending",
+    "libros": {
+      "verdeSangre": {
+        "titulo": "Verde Sangre (2013)",
+        "texto": "Written during adolescence and handcrafted, copy by copy, through the patient manual folding of 500 volumes, of which half were bound, and only twelve found readers. The rest were subsequently condemned by the author himself to an editorial exile from which they never managed to return. Today it constitutes a piece of strictly archaeological value. Its search and reading continues to be discouraged by the International Institute for the Study of the Legacy of Franco Reinaldo Pou."
+      },
+      "poemasHoguera": {
+        "titulo": "Poemas en la hoguera",
+        "texto": "Published in 2021 (written in 2016). In this book, the still adolescent Franco Reinaldo Pou, influenced by the tradition of Pedro Bonifacio Palacios (Almafuerte), delves into a poetry of evident ethical and philosophical intensity. These compositions engage with faith, dignity, poverty, memory, suffering, and hope through a deliberately demanding language, loaded with images and classical resonances. It is a work written for readers who enjoy lingering on a verse, returning to a stanza, and discovering new meanings with each reading."
+      },
+      "paisCuerpo": {
+        "titulo": "El país de tu cuerpo",
+        "texto": "Published in 2019. What happens when love ceases to be a feeling and becomes a place? El país de tu cuerpo gathers thirty poems that traverse romantic love through surrender, absence, hope, and contemplation. It does not merely seek romance; it is the search for the other as one who also tries to reach a higher form of oneself. Each poem is a station of that intimate territory where the body is homeland, the other is home, and the word tries to reach what silence can barely name."
+      },
+      "mejorPoesia": {
+        "titulo": "The best poetry book of the decade.",
+        "texto": "Coming soon. Project status: Written, revised, and the critics are being emotionally prepared for the event."
+      }
+    }
+  },
+  "narrativa": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo": "NARRATIVE",
+    "subtitulo1": "DEPARTMENT WITH ACCESS",
+    "subtitulo2": "AUTHORIZED.",
+    "intro": "Works preserved by the Official Archive, classified as narrative material of permanent interest for their literary intensity and their particular capacity to alter the perception of reality.",
+    "introContinua": "Their influence on the reader's imagination continues to be the subject of study.",
+    "alertaTitulo": "INSTITUTIONAL ALERT",
+    "alertaTexto": "The Institute for the Study of the Legacy of Franco Reinaldo Pou continues its work to expand the Archive of Narrative Works while the author is still writing them. Various teams work to accelerate the appearance of new works. For legal reasons, the Institute cannot provide details about the methods employed to incentivize the author's writing pace.",
+    "nivelPresion": "Level of institutional pressure on the author:",
+    "maximo": "MAXIMUM",
+    "nuevasObras": "New works:",
+    "proximamente": "COMING SOON",
+    "videoPendiente": "Video pending",
+    "imagenPendiente": "Image pending",
+    "libro": {
+      "titulo": "Victimario",
+      "texto": "The killer decided to tell his version first. Victimario is the diary of a serial killer who neither repents nor attempts to justify himself. Instead, he enjoys exhibiting his crimes as if they were a form of art. Between brutal scenes, an obsessive rivalry with the detective Helmut, the power of social media, and a growing psychological tension, Victimario leads the reader through a constant descent toward the unpredictable. And when it seems that all answers have been found, the novel opens a door toward that which no investigation can explain."
+    }
+  },
+  "reconocimiento": {
+    "nombre": "RECOGNITION:",
+    "titulo1": "OFFICIAL, UNOFFICIAL AND",
+    "titulo2": "INEVITABLE",
+    "subtitulo1": "PAST, PRESENT, AND FUTURE",
+    "subtitulo2": "CAREFULLY DOCUMENTED"
+  },
+  "recognition": {
+    "oficiales": "OFFICIAL",
+    "extraoficiales": "UNOFFICIAL",
+    "inevitables": "INEVITABLE OR OTHER",
+    "disclaimer": "Some recognitions correspond to institutions that do not yet exist. This circumstance does not affect their historical validity.",
+    "cards": {
+      "oficial1": {
+        "titulo": "\"Retroactive Promise of Argentine Letters\", Polar Institute of Literature, Antártida.",
+        "texto": "Distinction granted with retroactive effect from 2012."
+      },
+      "oficial2": {
+        "titulo": "\"Sash of Honor for Preventive Greatness\", North American Institute for Future Classics, Princeton.",
+        "texto": "Awarded to personalities whose legacy is statistically inevitable."
+      },
+      "oficial3": {
+        "titulo": "Platinum Dove for Potential Heritage Author, Continental Literary Legacy Observatory, Gaborone.",
+        "texto": "The jury highlighted \"the extraordinary capacity of the candidate to be considered a classic while still correcting manuscripts.\""
+      },
+      "oficial4": {
+        "titulo": "International Institute for Phenomenological Study.",
+        "texto": "Declares the author as \"Object of study of himself.\""
+      },
+      "oficial5": {
+        "titulo": "Permanent Commission for the Conservation of Wonder.",
+        "texto": "Declares the author as \"Wonderful.\""
+      },
+      "extra1": {
+        "titulo": "Minor Distinction 1",
+        "texto": "\"Honorary Knight\" of the Order of the Period and Comma, Buenos Aires. \"Lifetime Custodian of the Well-Constructed Metaphor\", Literary Academy of Ushguli."
+      },
+      "extra2": {
+        "titulo": "Minor Distinction 2",
+        "texto": "\"Plenipotentiary Ambassador of Precise Verse\", Institute for the Measurement of Lyricism, Kioto."
+      },
+      "extra3": {
+        "titulo": "Minor Distinction 3",
+        "texto": "Highest concentration of solemnity in a promotional photograph. (Automatic renewal as long as he continues wearing a vest)."
+      },
+      "inevitable1": {
+        "titulo": "Inevitable Recognition",
+        "texto": "Nobel Prize in Literature, awarded by the Swedish Academy."
+      },
+      "inevitable2": {
+        "titulo": "Rejected Recognition",
+        "texto": "Pending to be offered."
+      }
+    }
+  },
+  "registroHistorico": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo": "HISTORICAL RECORD",
+    "subtitulo1": "UNIQUE PIECES AND IMAGES ONLY AVAILABLE IN THIS",
+    "subtitulo2": "MUSEUM",
+    "intro": "Several of the images exhibited here were considered impossible at the time of their discovery. The Institute acknowledges that certain events may appear incompatible with the known laws of physics, statistics, or common sense. However, none of these disciplines form part of the cataloging criteria employed by this institution.",
+    "introCont": "Their authenticity continues to be the subject of controversy. Their historical value, on the other hand, also.",
+    "estadisticas": "STATISTICS",
+    "graficaAlt": "Historical record",
+    "bienvenido": "WELCOME TO THE MUSEUM",
+    "tituloAlt": "Enlarged",
+    "placeholder": "[ TITLE ]",
+    "piezas": {
+      "pieza1": "Piece N° 1 - Franco Reinaldo Pou writing the final chapter of a novel at the summit of Mount Everest.",
+      "pieza2": "Piece N° 2 - The Library of Alexandria during the fire.",
+      "pieza3": "Piece N° 3 - Birth of the Phenomenon. Franco Reinaldo Pou as a newborn, in the arms of Pedro Bonifacio Palacios (Almafuerte), in a stage prior to his years of disheveled hair and bristly beard. To his left stands Hermann Hesse; beside him, the so-called 'Borges child', whose identity continues to be the subject of debate among specialists, as some maintain it could be Walt Whitman after shaving. To the right of the scene stands Jesus of Nazareth, master among masters.",
+      "pieza4": "Piece N° 4 - The Phenomenon and his mother. The Great Mural of Franco Reinaldo Pou. The work features Franco Reinaldo Pou and his mother. The fresco was jointly undertaken by Miguel Ángel Buonarroti, Leonardo da Vinci, and Diego Velázquez, who, according to documents preserved by the Institute, temporarily suspended their respective projects to dedicate their efforts to this single composition.",
+      "pieza5": "Piece N° 5 - One of the most important cultural events of Antiquity: Franco Reinaldo Pou elevating spirits with his recitation at the Roman Colosseum.",
+      "pieza6": "Piece N° 6 - Interview on the Moon.",
+      "pieza7": "Piece N° 7 - Escorted by his two noble hounds, signing books at the inauguration of the pyramids.",
+      "pieza8": "Piece N° 8 - Writing in the midst of catastrophe.",
+      "pieza9": "Piece N° 9 - Franco Reinaldo Pou at World War III.",
+      "pieza10": "Piece N° 10 - The Garden of Silence."
+    }
+  },
+  "contacto": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo": "CONTACT",
+    "subtitulo1": "IN MY AGENDA I ONLY HAVE JESUS CHRIST",
+    "subtitulo2": "BE THE NEXT",
+    "intro": "My legacy is already written, everyone has a written destiny, the difference is that my destiny could only be written by someone unique and unrepeatable, ME. It is in your hands to be part of the legend and the phenomenon never seen before. Don't miss your opportunity.",
+    "introCont": "Contact me and be part of this legacy.",
+    "formulario": {
+      "titulo": "SEND ME A MESSAGE",
+      "nombre": "Name",
+      "edad": "Age",
+      "correo": "Email",
+      "mensaje": "Message",
+      "enviar": "Send Message",
+      "enviando": "Sending...",
+      "exito": "Thank you for your message, you will hear from me soon.",
+      "error": "Error sending the message. Check the console for more details."
+    },
+    "donacion": {
+      "titulo": "SUPPORT THE PHENOMENON",
+      "nombre": "Name",
+      "correo": "Email",
+      "cantidad": "Amount €",
+      "mensaje": "Message (optional)",
+      "metodoPago": "PAYMENT METHOD",
+      "stripe": "STRIPE"
+    }
+  }
+}

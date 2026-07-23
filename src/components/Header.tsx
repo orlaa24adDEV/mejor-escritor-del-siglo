@@ -1,19 +1,22 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 import Logo from '@/components/Logo'
+import LanguageSwitcher from '@/components/LanguageSwitcher'
 
 const navItems = [
-  { label: 'Inicio', path: '/' },
-  { label: 'Cronología', path: '/cronologia' },
-  { label: 'Poesía', path: '/poesia' },
-  { label: 'Narrativa', path: '/narrativa' },
-  { label: 'Reconocimiento', path: '/reconocimiento' },
-  { label: 'Registro Histórico', path: '/registro-historico' },
-  { label: 'Contacto', path: '/contacto' },
+  { key: 'header.nav.inicio', path: '/' },
+  { key: 'header.nav.cronologia', path: '/cronologia' },
+  { key: 'header.nav.poesia', path: '/poesia' },
+  { key: 'header.nav.narrativa', path: '/narrativa' },
+  { key: 'header.nav.reconocimiento', path: '/reconocimiento' },
+  { key: 'header.nav.registroHistorico', path: '/registro-historico' },
+  { key: 'header.nav.contacto', path: '/contacto' },
 ] as const
 
 function NavLinkItem({ item, onClick }: { item: typeof navItems[number]; onClick?: () => void }) {
+  const { t } = useTranslation()
   return (
     <NavLink
       key={item.path}
@@ -25,13 +28,14 @@ function NavLinkItem({ item, onClick }: { item: typeof navItems[number]; onClick
         }`
       }
     >
-      {item.label}
+      {t(item.key)}
     </NavLink>
   )
 }
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { t } = useTranslation()
   const closeMenu = () => setIsMenuOpen(false)
 
   return (
@@ -52,10 +56,13 @@ function Header() {
                 <NavLinkItem key={item.path} item={item} />
               ))}
             </nav>
+            <div className="hidden lg:flex ml-6">
+              <LanguageSwitcher />
+            </div>
             <button
               className="lg:hidden text-marfil hover:text-dorado transition-colors mr-6"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label="Menú de navegación"
+              aria-label={t('header.menuAriaLabel')}
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -71,6 +78,7 @@ function Header() {
             {navItems.map((item) => (
               <NavLinkItem key={item.path} item={item} onClick={closeMenu} />
             ))}
+            <LanguageSwitcher onToggle={closeMenu} />
           </nav>
         </div>
       )}

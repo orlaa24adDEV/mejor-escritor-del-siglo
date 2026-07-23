@@ -1,23 +1,16 @@
 import { Play, Pause, Volume2, Volume1, Astroid } from "lucide-react"
 import { useRef, useState } from "react"
+import { useTranslation } from 'react-i18next'
 import Victimario from "@/assets/victimario.png"
 import Button from "@/components/Button"
 import VictimarioVideo from "@/assets/Victimario.mp4"
-
-const booksData = [
-  {
-    img: Victimario,
-    videoSrc: VictimarioVideo,
-    title: "Victimario",
-    text: "El asesino decidió contar su versión primero. Victimario es el diario de un asesino serial que no se arrepiente ni intenta justificarse. En cambio, disfruta exhibiendo sus crímenes como si fueran una forma de arte. Entre escenas brutales, una rivalidad obsesiva con el detective Helmut, el poder de las redes sociales y una tensión psicológica creciente, Victimario conduce al lector por un descenso constante hacia lo imprevisible. Y cuando parece que todas las respuestas han sido encontradas, la novela abre una puerta hacia aquello que ninguna investigación puede explicar.",
-  },
-]
 
 interface VideoPlayerProps {
   src?: string
 }
 
 function VideoPlayer({ src }: VideoPlayerProps) {
+  const { t } = useTranslation()
   const videoRef = useRef<HTMLVideoElement>(null)
   const [isPlaying, setIsPlaying] = useState(false)
   const [volume, setVolume] = useState(1)
@@ -64,7 +57,7 @@ function VideoPlayer({ src }: VideoPlayerProps) {
             onEnded={() => setIsPlaying(false)}
           />
         ) : (
-          <p className="font-serif text-piedra text-lg">Video pendiente</p>
+          <p className="font-serif text-piedra text-lg">{t('narrativa.videoPendiente')}</p>
         )}
       </div>
       <div className="flex items-center gap-4 mt-4">
@@ -98,6 +91,17 @@ function VideoPlayer({ src }: VideoPlayerProps) {
 }
 
 function NarrativeBooks() {
+  const { t } = useTranslation()
+
+  const booksData = [
+    {
+      img: Victimario,
+      videoSrc: VictimarioVideo,
+      title: t('narrativa.libro.titulo'),
+      text: t('narrativa.libro.texto'),
+    },
+  ]
+
   return (
     <section className="bg-negro px-6 md:px-24 py-10 pb-50">
       <div className="mx-auto flex flex-col gap-12 lg:gap-24 w-full max-w-6xl xl:max-w-[1600px]">
@@ -113,7 +117,7 @@ function NarrativeBooks() {
                   <img src={book.img} alt={book.title} className="w-full h-full object-cover shadow-[0_0_80px_rgba(176,141,87,0.25)] rounded-lg" />
                 ) : (
                   <div className="bg-gray-900 rounded-lg flex items-center justify-center w-full h-full">
-                    <p className="font-serif text-piedra text-lg">Imagen pendiente</p>
+                    <p className="font-serif text-piedra text-lg">{t('narrativa.imagenPendiente')}</p>
                   </div>
                 )}
               </div>
@@ -127,7 +131,7 @@ function NarrativeBooks() {
             </div>
             {(i === 1 || i === 2) && (
               <div className="flex justify-center p-10 md:p-30 pb-5">
-              <Button to="https://www.amazon.de/amz-books/store?node=530886031&storeType=browse&filters=v1%3AFORMAT%5Bkindle_edition%5D&ie=UTF8&ccs_id=94661c71-5cf1-46c5-b589-738f2162b111">Adquirir un ejemplar</Button>
+              <Button to="https://www.amazon.de/amz-books/store?node=530886031&storeType=browse&filters=v1%3AFORMAT%5Bkindle_edition%5D&ie=UTF8&ccs_id=94661c71-5cf1-46c5-b589-738f2162b111">{t('common.adquirir')}</Button>
               </div>
             )}
           </div>

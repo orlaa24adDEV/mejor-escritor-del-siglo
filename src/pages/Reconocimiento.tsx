@@ -1,8 +1,10 @@
+import { useTranslation } from 'react-i18next'
 import { Astroid, ArrowDown } from "lucide-react"
 import RecognitionCards from "@/sections/RecognitionCards"
 import Trofeo from "@/assets/trofeos.png"
 
 function Reconocimiento() {
+  const { t } = useTranslation()
   return (
     <>
       <section
@@ -13,18 +15,18 @@ function Reconocimiento() {
           <div className="flex-1 space-y-6">
             <div className="relative">
               <p className="font-serif text-piedra text-base tracking-widest uppercase border-b-1 border-dorado pb-10">
-                <span className="text-xl md:text-2xl lg:text-3xl text-dorado">RECONOCIMIENTOS:</span>
+                <span className="text-xl md:text-2xl lg:text-3xl text-dorado">{t('reconocimiento.nombre')}</span>
               </p>
               <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />
             </div>
             <div className="relative">
               <h1 className="font-serif text-4xl md:text-5xl lg:text-7xl text-marfil leading-tight border-b-1 border-dorado pb-10">
-                OFICIALES, EXTRAOFICIALES E <br />INEVITABLES
+                {t('reconocimiento.titulo1')} <br />{t('reconocimiento.titulo2')}
               </h1>
               <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />
             </div>
               <p className="font-serif text-piedra text-xl md:text-2xl lg:text-3xl leading-relaxed">
-                PASADO, PRESENTE Y FUTURO<br /> <span className="text-dorado italic">CUIDADOSAMENTE DOCUMENTADOS</span>
+                {t('reconocimiento.subtitulo1')}<br /> <span className="text-dorado italic">{t('reconocimiento.subtitulo2')}</span>
               </p>
           </div>
         </div>

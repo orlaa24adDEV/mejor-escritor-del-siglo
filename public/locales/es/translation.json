@@ -1,0 +1,287 @@
+{
+  "header": {
+    "nav": {
+      "inicio": "Inicio",
+      "cronologia": "Cronología",
+      "poesia": "Poesía",
+      "narrativa": "Narrativa",
+      "reconocimiento": "Reconocimiento",
+      "registroHistorico": "Registro Histórico",
+      "contacto": "Contacto"
+    },
+    "menuAriaLabel": "Menú de navegación"
+  },
+  "footer": {
+    "instituto": "INSTITUTO INTERNACIONAL",
+    "estudio": "PARA EL ESTUDIO DE SU LEGADO",
+    "fundado": "FUNDADO Y SOSTENIDO POR EL MISMO",
+    "version": "VERSIÓN DEL SITIO: 1.0",
+    "estado": "ESTADO DEL AUTOR:",
+    "definitivo": "DEFINITIVO",
+    "compatibilidad": "COMPATIBILIDAD: TODOS LOS SIGLOS",
+    "ultima": "ÚLTIMA ACTUALIZACIÓN:",
+    "posterioridad": "LA POSTERIDAD"
+  },
+  "hero": {
+    "inicio": {
+      "nombre": "FRANCO REINALDO POU",
+      "titulo1": "EL ESCRITOR",
+      "titulo2": "DEL SIGLO",
+      "subtitulo1": "Toda época tiene un autor que la define.",
+      "subtitulo2": "Está decidido a exagerar.",
+      "boton": "Reconocimiento"
+    }
+  },
+  "information": {
+    "palabras": "PALABRAS ESCRITAS",
+    "civilizaciones": "CIVILIZACIONES INSPIRADAS",
+    "evolucion": "EN EVOLUCIÓN.",
+    "elegancia": "NIVEL DE ELEGANCIA",
+    "escritores": "CANTIDAD DE ESCRITORES MEJORES",
+    "sinRegistros": "SIN REGISTROS",
+    "revisado": "REVISADO POR",
+    "historia": "LA HISTORIA"
+  },
+  "common": {
+    "intro": "INTRODUCCIÓN",
+    "enviar": "Enviar Mensaje",
+    "enviando": "Enviando...",
+    "adquirir": "Adquirir un ejemplar"
+  },
+  "cronologia": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo1": "CRONOLOGÍA",
+    "titulo2": "DEL FENÓMENO",
+    "subtitulo1": "Desde 1996 hasta",
+    "subtitulo2": "LA ETERNIDAD",
+    "intro": "Durante siglos, las grandes civilizaciones conservaron registros de guerras, imperios, descubrimientos científicos y revoluciones. Este archivo reúne los acontecimientos más relevantes en la formación, desarrollo y consolidación del denominado Fenómeno Franco Reinaldo Pou. Aunque diversos historiadores insisten en interpretar estos hechos como la biografía de un escritor argentino, investigaciones recientes sostienen que constituyen, en realidad, el registro del lento e inevitable advenimiento del mayor autor del siglo XXI."
+  },
+  "timeline": {
+    "eventos": {
+      "1996": {
+        "titulo": "1 de noviembre.",
+        "texto": "Nace Franco Reinaldo Pou en la ciudad de Buenos Aires, Argentina. La historia todavía desconoce las consecuencias de este acontecimiento, pero se sabe que marcará un antes y un después en la historia de la literatura mundial."
+      },
+      "1997_2011": {
+        "titulo": "Años sin archivo",
+        "texto": "Su padre abandona el hogar. La información correspondiente a estos años presenta importantes inconsistencias. Algunas fuentes sostienen que desde pequeño manifestó una curiosidad excesiva por demasiadas disciplinas y una sensibilidad impropia para su edad. Otras afirman que anticipaba la llegada de las visitas antes de que golpearan la puerta. Existen testimonios según los cuales conversaba con personas cuya existencia jamás pudo corroborarse. Un episodio particularmente controvertido relata que, siendo niño, fue dejado al cuidado de dos curanderos con supuestos dones de clarividencia e imposición de manos, quienes, sin autorización familiar, lo bautizaron y se autoproclamaron sus padrinos mediante un ritual cuya validez continúa siendo discutida por especialistas. También consta un incidente de gravedad moral: rompió deliberadamente el huevo de un pájaro durante un juego, comprendió inmediatamente la naturaleza de su acto y permaneció entristecido durante aproximadamente un mes. Su abuela, figura determinante del período, acostumbraba introducirlo al pasado mediante monedas antiguas, cajas musicales y poemas recitados diariamente."
+      },
+      "2012": {
+        "titulo": "Comienza a escribir poesía y narrativa.",
+        "texto": "La literatura acusa recibo de sus primeras obras."
+      },
+      "2013": {
+        "titulo": "Verde Sangre",
+        "texto": "Concluye un libro de poemas titulado Verde Sangre. Luego de evaluarlo con una severidad impropia incluso para su autor, decide editarlo únicamente para proceder a ocultarlo en el rincón más inaccesible de su casa. Durante el mismo año termina un libro de cuentos que logra una hazaña editorial excepcional: desaparecer antes de existir. Conoce a Flora. La crítica coincide en que este acontecimiento modificó profundamente su poesía."
+      },
+      "2014": {
+        "titulo": "Fin de secundaria",
+        "texto": "Termina sus estudios secundarios. Comienza su relación con Flora."
+      },
+      "2015": {
+        "titulo": "Inicio de Licenciatura en Filosofía",
+        "texto": "La abandona poco después para enfrentar un fenómeno económico adverso conocido como 'la pobreza'. Durante seis meses ejerce la docencia de idiomas desconocidos. Comienza asimismo sus primeras experiencias con la recitación poética. Los registros de la época describen una voz todavía en estado embrionario, aunque ya capaz de producir inquietantes silencios entre los presentes."
+      },
+      "2016": {
+        "titulo": "Inicio de Licenciatura en Comunicación",
+        "texto": "La abandona para aceptar un puesto ad honorem en una biblioteca de geometría incierta. Diversos testimonios aseguran que sus pasillos conducían simultáneamente a todas partes y a ninguna. Colabora con la revista de la institución. Existen versiones no verificadas según las cuales habría quemado libros para atravesar el invierno. Al encontrar finalmente la salida del edificio, presenta su renuncia. Concluye Poemas en la hoguera."
+      },
+      "2017": {
+        "titulo": "Inicio de Profesorado de Literatura",
+        "texto": "Lo abandona al advertir que la infelicidad podía institucionalizarse. Trabaja brevemente en un comercio de cereales y legumbres. Finaliza su primera novela. Decide que todavía no merece existir públicamente. La novela acepta la decisión."
+      },
+      "2018": {
+        "titulo": "Inicio en Licenciatura en Cultura y Lenguaje Artístico",
+        "texto": "Abandona la carrera el mismo día. Las investigaciones indican que llegó hasta la parada del autobús antes de comprender que prefería volver a su casa. Termina El país de tu cuerpo."
+      },
+      "2019": {
+        "titulo": "Comienzo Pandemia COVID-19",
+        "texto": "El archivo considera que este acontecimiento tuvo escasa incidencia comparado con los procesos creativos del autor."
+      },
+      "2020": {
+        "titulo": "Finalización de Victimario",
+        "texto": "Viaja junto a su madre al norte argentino para acompañar a un familiar en estado terminal. La cuarentena nacional los obliga a permanecer allí. El familiar fallece."
+      },
+      "2021": {
+        "titulo": "21 de Diciembre.",
+        "texto": "Muere su abuela. Catástrofe absoluta. Nivel de tormento registrado: Sin precedentes."
+      },
+      "2022": {
+        "titulo": "Muerte de Lobo.",
+        "texto": "Muere su perro, Lobo. Posteriormente escribiría el poema homónimo. Comienzan intensos padecimientos psíquicos cuya duración permanece indeterminada. Trabaja como albañil solo para someter su cuerpo a la alta prueba de los andamios."
+      },
+      "2023": {
+        "titulo": "13 de Julio.",
+        "texto": "Muere su padre. Franco Reinaldo Pou es desheredado. Responde iniciando una demanda judicial. Los archivos califican el episodio como 'desagradable, aunque literariamente prometedor'."
+      },
+      "2024": {
+        "titulo": "Cultivación de Paciencia.",
+        "texto": "Comienza a trabajar como administrativo solo con el objetivo de cultivar la paciencia. Resultado obtenido: Negativo. Aparecen además padecimientos físicos asociados a los psíquicos y cuya explicación continúa pendiente."
+      },
+      "2025": {
+        "titulo": "Publicación Victimario.",
+        "texto": "El autor manifiesta una disconformidad considerable. La novela, en cambio, permanece indiferente, tan indiferente que escribe en aproximadamente tres meses una contraparte que los críticos adjetivan como 'gloriosa'. Realiza su primera firma de ejemplares en la Feria Internacional del Libro de Buenos Aires. La recitación alcanza su forma definitiva. Los informes técnicos describen el fenómeno como un estado de lirismo absoluto. Las consecuencias para la audiencia continúan siendo objeto de estudio."
+      },
+      "2026": {
+        "titulo": "Europa",
+        "texto": "Renuncia a su empleo. Viaja a Europa. Decide que ya es suficiente humildad. Concluye la escritura de uno de sus más célebres libros de poesía, cuyo título continúa siendo objeto de estudio. Los epigrafistas consultados coinciden en que las inscripciones originales fueron realizadas desde un grado de inspiración excepcionalmente elevado. Algunos informes preliminares hablan, sin el debido rigor científico, de un estado de \"celestialidad\". Los investigadores consideran que esta etapa permanece abierta y, por razones metodológicas, se niegan a emitir conclusiones prematuras, pero prometen actualizaciones."
+      }
+    }
+  },
+  "poesia": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo": "POESÍA",
+    "subtitulo1": "TODA OBRA VERDADERA",
+    "subtitulo2": "NACE DE UNA OBSESIÓN",
+    "intro": "Estos libros reúnen algunos de los intentos más honestos, violentos y luminosos por alcanzar aquello que el lenguaje rara vez concede: un instante de belleza absoluta. Pertenecen a distintas épocas del autor y conservan, con mayor o menor fortuna, las huellas de esa persecución inagotable.",
+    "introFinal": "Qué comience la función:",
+    "sinVideo": "Sin video",
+    "imagenPendiente": "Imagen pendiente",
+    "libros": {
+      "verdeSangre": {
+        "titulo": "Verde Sangre (2013)",
+        "texto": "Redactado durante la adolescencia y confeccionado artesanalmente, ejemplar por ejemplar, mediante el paciente doblado manual de 500 volúmenes, de los cuales se encuadernaron la mitad, y solo doce encontraron lectores. Los restantes fueron posteriormente condenados por el propio autor a un exilio editorial del que jamás lograron regresar. Hoy constituye una pieza de valor estrictamente arqueológico. Su búsqueda y lectura continúa siendo desaconsejada por el Instituto Internacional para el Estudio del Legado de Franco Reinaldo Pou."
+      },
+      "poemasHoguera": {
+        "titulo": "Poemas en la hoguera",
+        "texto": "Publicado en 2021 (escrito en 2016). En este libro, el todavía adolescente Franco Reinaldo Pou, influenciado por la tradición de Pedro Bonifacio Palacios (Almafuerte), se adentra en una poesía de evidente intensidad ética y filosófica. Estas composiciones dialogan con la fe, la dignidad, la pobreza, la memoria, el sufrimiento y la esperanza mediante un lenguaje deliberadamente exigente, cargado de imágenes y resonancias clásicas. Es una obra escrita para lectores que disfrutan demorarse en el verso, regresar sobre una estrofa y descubrir nuevos sentidos en cada lectura."
+      },
+      "paisCuerpo": {
+        "titulo": "El país de tu cuerpo",
+        "texto": "Publicado en 2019. ¿Qué ocurre cuando el amor deja de ser un sentimiento para convertirse en un lugar?. El país de tu cuerpo reúne treinta poemas que recorren el amor romántico desde la entrega, la ausencia, la esperanza y la contemplación. No solo busca romance, es la búsqueda del otro como quien intenta alcanzar también una forma más alta de sí mismo. Cada poema es una estación de ese territorio íntimo donde el cuerpo es patria, el otro es hogar y la palabra intenta alcanzar aquello que el silencio apenas consigue nombrar."
+      },
+      "mejorPoesia": {
+        "titulo": "El mejor libro de poesía de la década.",
+        "texto": "Próximamente. Estado del proyecto: Escrito, corregido y la crítica está siendo emocionalmente preparada para el acontecimiento."
+      }
+    }
+  },
+  "narrativa": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo": "NARRATIVA",
+    "subtitulo1": "DEPARTAMENTO CON ACCESO",
+    "subtitulo2": "AUTORIZADO.",
+    "intro": "Obras preservadas por el Archivo Oficial, clasificadas como material narrativo de interés permanente por su intensidad literaria y su particular capacidad para alterar la percepción de la realidad.",
+    "introContinua": "Su influencia sobre la imaginación del lector continúa siendo objeto de estudio.",
+    "alertaTitulo": "ALERTA INSTITUCIONAL",
+    "alertaTexto": "El Instituto para el Estudio del Legado de Franco Reinaldo Pou continúa su labor para ampliar el Archivo de Obras Narrativas mientras el autor aún las está escribiendo. Diversos equipos trabajan para acelerar la aparición de nuevas obras. Por razones legales, el Instituto no puede brindar detalles sobre los métodos empleados para incentivar el ritmo de escritura del autor.",
+    "nivelPresion": "Nivel de presión institucional sobre el autor:",
+    "maximo": "MÁXIMO",
+    "nuevasObras": "Nuevas obras:",
+    "proximamente": "PRÓXIMAMENTE",
+    "videoPendiente": "Video pendiente",
+    "imagenPendiente": "Imagen pendiente",
+    "libro": {
+      "titulo": "Victimario",
+      "texto": "El asesino decidió contar su versión primero. Victimario es el diario de un asesino serial que no se arrepiente ni intenta justificarse. En cambio, disfruta exhibiendo sus crímenes como si fueran una forma de arte. Entre escenas brutales, una rivalidad obsesiva con el detective Helmut, el poder de las redes sociales y una tensión psicológica creciente, Victimario conduce al lector por un descenso constante hacia lo imprevisible. Y cuando parece que todas las respuestas han sido encontradas, la novela abre una puerta hacia aquello que ninguna investigación puede explicar."
+    }
+  },
+  "reconocimiento": {
+    "nombre": "RECONOCIMIENTOS:",
+    "titulo1": "OFICIALES, EXTRAOFICIALES E",
+    "titulo2": "INEVITABLES",
+    "subtitulo1": "PASADO, PRESENTE Y FUTURO",
+    "subtitulo2": "CUIDADOSAMENTE DOCUMENTADOS"
+  },
+  "recognition": {
+    "oficiales": "OFICIALES",
+    "extraoficiales": "EXTRAOFICIALES",
+    "inevitables": "INEVITABLES U OTROS",
+    "disclaimer": "Algunos reconocimientos corresponden a instituciones que aún no existen. Esta circunstancia no afecta su validez histórica.",
+    "cards": {
+      "oficial1": {
+        "titulo": "\"Promesa Retroactiva de las Letras Argentinas\", Instituto Polar de Literatura, Antártida.",
+        "texto": "Distinción concedida con efecto retroactivo desde 2012."
+      },
+      "oficial2": {
+        "titulo": "\"Faja de honor a la Grandeza Preventiva\", North American Institute for Future Classics, Princeton.",
+        "texto": "Otorgado a personalidades cuyo legado resulta estadísticamente inevitable."
+      },
+      "oficial3": {
+        "titulo": "Paloma de platino al Autor Patrimonial en Potencia, Observatorio Continental del Legado Literario, Gaborone.",
+        "texto": "El jurado destacó \"la extraordinaria capacidad del candidato para ser considerado un clásico mientras todavía corrige manuscritos\"."
+      },
+      "oficial4": {
+        "titulo": "Instituto Internacional para el Estudio Fenomenológico.",
+        "texto": "Declara al autor como \"Objeto de estudio de sí mismo\"."
+      },
+      "oficial5": {
+        "titulo": "Comisión Permanente para la Conservación del Asombro.",
+        "texto": "Declara al autor como \"Asombroso\"."
+      },
+      "extra1": {
+        "titulo": "Distinción menor 1",
+        "texto": "\"Caballero Honorario\" de la Orden del Punto y Coma, Buenos Aires. \"Custodio Vitalicio de la Metáfora Bien Construida\", Academia Literaria de Ushguli."
+      },
+      "extra2": {
+        "titulo": "Distinción menor 2",
+        "texto": "\"Embajador Plenipotenciario del Verso Preciso\", Instituto para la Medición del Lirismo, Kioto."
+      },
+      "extra3": {
+        "titulo": "Distinción menor 3",
+        "texto": "Mayor concentración de solemnidad en una fotografía promocional. (Renovación automática mientras continúe utilizando chaleco)."
+      },
+      "inevitable1": {
+        "titulo": "Reconocimiento Inevitable",
+        "texto": "Premio Nobel de Literatura, otorgado por la Academia Sueca."
+      },
+      "inevitable2": {
+        "titulo": "Reconocimiento Rechazados",
+        "texto": "Pendientes de ser ofrecidos."
+      }
+    }
+  },
+  "registroHistorico": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo": "REGISTRO HISTÓRICO",
+    "subtitulo1": "PIEZAS E IMÁGENES ÚNICAS SOLO DISPONIBLES EN ESTE",
+    "subtitulo2": "MUSEO",
+    "intro": "Varias de las imágenes aquí exhibidas fueron consideradas imposibles al momento de su descubrimiento. El Instituto reconoce que ciertos acontecimientos podrían parecer incompatibles con las leyes conocidas de la física, la estadística o el sentido común. No obstante, ninguna de esas disciplinas forma parte de los criterios de catalogación empleados por esta institución.",
+    "introCont": "Su autenticidad continúa siendo motivo de controversia. Su valor histórico, en cambio, también.",
+    "estadisticas": "ESTADÍSTICAS",
+    "graficaAlt": "Registro histórico",
+    "bienvenido": "BIENVENIDO AL MUSEO",
+    "tituloAlt": "Ampliada",
+    "placeholder": "[ TÍTULO ]",
+    "piezas": {
+      "pieza1": "Pieza N° 1 - Franco Reinaldo Pou redactando el capítulo final de una novela en la cima del Monte Everest.",
+      "pieza2": "Pieza N° 2 - La Biblioteca de Alejandría durante el incendio.",
+      "pieza3": "Pieza N° 3 - Nacimiento del Fenómeno. Franco Reinaldo Pou recién nacido, en brazos por Pedro Bonifacio Palacios (Almafuerte), en una etapa previa a sus años de cabellera desordenada y barba hirsuta. A su izquierda se encuentra Hermann Hesse; junto a él, el denominado \"niño Borges\", cuya identidad continúa siendo objeto de debate entre los especialistas, pues algunos sostienen que podría tratarse de Walt Whitman después de afeitarse. A la derecha de la escena permanece Jesús de Nazaret, maestro entre maestros.",
+      "pieza4": "Pieza N° 4 - El Fenómeno y su madre. El Gran Mural de Franco Reinaldo Pou. En la obra aparecen Franco Reinaldo Pou y su madre. El fresco fue emprendido conjuntamente por Miguel Ángel Buonarroti, Leonardo da Vinci y Diego Velázquez, quienes, según los documentos conservados por el Instituto, suspendieron temporalmente sus respectivos proyectos para dedicar sus esfuerzos a esta única composición.",
+      "pieza5": "Pieza N° 5 - Uno de los acontecimientos culturales más importantes de la Antigüedad: Franco Reinaldo Pou elevando espíritus con su recitado en el Coliseo Romano.",
+      "pieza6": "Pieza N° 6 - Entrevista en la Luna.",
+      "pieza7": "Pieza N° 7 - Escoltado por sus dos nobles canes, firmando libros en la inauguración de la pirámides.",
+      "pieza8": "Pieza N° 8 - Escribiendo en medio de la catástrofe.",
+      "pieza9": "Pieza N° 9 - Franco Reinaldo Pou en la 3ra Guerra Mundial.",
+      "pieza10": "Pieza N° 10 - El Jardín del Silencio."
+    }
+  },
+  "contacto": {
+    "nombre": "FRANCO REINALDO POU",
+    "titulo": "CONTACTO",
+    "subtitulo1": "EN MI AGENDA SOLO TENGO A JESUCRISTO",
+    "subtitulo2": "SE EL SIGUIENTE",
+    "intro": "Mi legado ya está escrito, todo el mundo tiene un destino escrito, la diferencia es que mi destino solo podía ser escrito por alguien único e irrepetible, YO. Está en tus manos poder ser parte de la leyenda y el fenómeno nunca antes visto. No pierdas tu oportunidad.",
+    "introCont": "Contáctame y sé parte de este legado.",
+    "formulario": {
+      "titulo": "ENVÍAME UN MENSAJE",
+      "nombre": "Nombre",
+      "edad": "Edad",
+      "correo": "Correo",
+      "mensaje": "Mensaje",
+      "enviar": "Enviar Mensaje",
+      "enviando": "Enviando...",
+      "exito": "Gracias por tu mensaje, pronto recibirás noticias mías.",
+      "error": "Error al enviar el mensaje. Revisá la consola para más detalles."
+    },
+    "donacion": {
+      "titulo": "APOYA EL FENÓMENO",
+      "nombre": "Nombre",
+      "correo": "Correo",
+      "cantidad": "Cantidad €",
+      "mensaje": "Mensaje (opcional)",
+      "metodoPago": "MÉTODO DE PAGO",
+      "stripe": "STRIPE"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import { Play, Pause, Volume2, Volume1, Astroid } from "lucide-react"
 import { useRef, useState } from "react"
+import { useTranslation } from 'react-i18next'
 import VerdeSangre from "@/assets/verdeSangre.png"
 import PoemasHoguera from "@/assets/PoemasHoguera.png"
 import PaisCuerpo from "@/assets/paisCuerpo.png"
@@ -9,38 +10,12 @@ import ProximaPoesia from "@/assets/ProximaPoesia.mp4"
 import PoesiaHoguera from "@/assets/PoemasHoguera.mp4"
 import PaisCuerpoVideo from "@/assets/PaisCuerpo.mp4"
 
-const booksData = [
-  {
-    img: VerdeSangre,
-    videoSrc: "",
-    title: "Verde Sangre (2013)",
-    text: "Redactado durante la adolescencia y confeccionado artesanalmente, ejemplar por ejemplar, mediante el paciente doblado manual de 500 volúmenes, de los cuales se encuadernaron la mitad, y solo doce encontraron lectores. Los restantes fueron posteriormente condenados por el propio autor a un exilio editorial del que jamás lograron regresar. Hoy constituye una pieza de valor estrictamente arqueológico. Su búsqueda y lectura continúa siendo desaconsejada por el Instituto Internacional para el Estudio del Legado de Franco Reinaldo Pou.",
-  },
-  {
-    img: PoemasHoguera,
-    videoSrc: PoesiaHoguera,
-    title: "Poemas en la hoguera",
-    text: "Publicado en 2021 (escrito en 2016). En este libro, el todavía adolescente Franco Reinaldo Pou, influenciado por la tradición de Pedro Bonifacio Palacios (Almafuerte), se adentra en una poesía de evidente intensidad ética y filosófica. Estas composiciones dialogan con la fe, la dignidad, la pobreza, la memoria, el sufrimiento y la esperanza mediante un lenguaje deliberadamente exigente, cargado de imágenes y resonancias clásicas. Es una obra escrita para lectores que disfrutan demorarse en el verso, regresar sobre una estrofa y descubrir nuevos sentidos en cada lectura. ",
-  },
-  {
-    img: PaisCuerpo,
-    videoSrc: PaisCuerpoVideo,
-    title: "El país de tu cuerpo",
-    text: "Publicado en 2019. ¿Qué ocurre cuando el amor deja de ser un sentimiento para convertirse en un lugar?. El país de tu cuerpo reúne treinta poemas que recorren el amor romántico desde la entrega, la ausencia, la esperanza y la contemplación. No solo busca romance, es la búsqueda del otro como quien intenta alcanzar también una forma más alta de sí mismo. Cada poema es una estación de ese territorio íntimo donde el cuerpo es patria, el otro es hogar y la palabra intenta alcanzar aquello que el silencio apenas consigue nombrar.",
-  },
-  {
-    img: MejorPoesia,
-    videoSrc: ProximaPoesia,
-    title: "El mejor libro de poesía de la década.",
-    text: "Próximamente. Estado del proyecto: Escrito, corregido y la crítica está siendo emocionalmente preparada para el acontecimiento.",
-  },
-]
-
 interface VideoPlayerProps {
   src?: string
 }
 
 function VideoPlayer({ src }: VideoPlayerProps) {
+  const { t } = useTranslation()
   const videoRef = useRef<HTMLVideoElement>(null)
   const [isPlaying, setIsPlaying] = useState(false)
   const [volume, setVolume] = useState(1)
@@ -87,7 +62,7 @@ function VideoPlayer({ src }: VideoPlayerProps) {
             onEnded={() => setIsPlaying(false)}
           />
         ) : (
-          <p className="font-serif text-piedra text-lg">Sin video</p>
+          <p className="font-serif text-piedra text-lg">{t('poesia.sinVideo')}</p>
         )}
       </div>
       <div className="flex items-center gap-4 mt-4">
@@ -121,6 +96,35 @@ function VideoPlayer({ src }: VideoPlayerProps) {
 }
 
 function PoetryBooks() {
+  const { t } = useTranslation()
+
+  const booksData = [
+    {
+      img: VerdeSangre,
+      videoSrc: "",
+      title: t('poesia.libros.verdeSangre.titulo'),
+      text: t('poesia.libros.verdeSangre.texto'),
+    },
+    {
+      img: PoemasHoguera,
+      videoSrc: PoesiaHoguera,
+      title: t('poesia.libros.poemasHoguera.titulo'),
+      text: t('poesia.libros.poemasHoguera.texto'),
+    },
+    {
+      img: PaisCuerpo,
+      videoSrc: PaisCuerpoVideo,
+      title: t('poesia.libros.paisCuerpo.titulo'),
+      text: t('poesia.libros.paisCuerpo.texto'),
+    },
+    {
+      img: MejorPoesia,
+      videoSrc: ProximaPoesia,
+      title: t('poesia.libros.mejorPoesia.titulo'),
+      text: t('poesia.libros.mejorPoesia.texto'),
+    },
+  ]
+
   return (
     <section className="bg-negro px-6 md:px-24 py-10 pb-50">
       <div className="mx-auto flex flex-col gap-12 lg:gap-24 w-full max-w-6xl xl:max-w-[1600px]">
@@ -136,7 +140,7 @@ function PoetryBooks() {
                   <img src={book.img} alt={book.title} className="w-full h-full object-cover shadow-[0_0_80px_rgba(176,141,87,0.25)] rounded-lg" />
                 ) : (
                   <div className="bg-gray-900 rounded-lg flex items-center justify-center w-full h-full">
-                    <p className="font-serif text-piedra text-lg">Imagen pendiente</p>
+                    <p className="font-serif text-piedra text-lg">{t('poesia.imagenPendiente')}</p>
                   </div>
                 )}
               </div>
@@ -152,7 +156,7 @@ function PoetryBooks() {
             </div>
             {(i === 1 || i === 2) && (
               <div className="flex justify-center p-10 md:p-30 pb-5">
-              <Button to="https://www.amazon.de/amz-books/store?node=530886031&storeType=browse&filters=v1%3AFORMAT%5Bkindle_edition%5D&ie=UTF8&ccs_id=94661c71-5cf1-46c5-b589-738f2162b111">Adquirir un ejemplar</Button>
+              <Button to="https://www.amazon.de/amz-books/store?node=530886031&storeType=browse&filters=v1%3AFORMAT%5Bkindle_edition%5D&ie=UTF8&ccs_id=94661c71-5cf1-46c5-b589-738f2162b111">{t('common.adquirir')}</Button>
               </div>
             )}
           </div>
