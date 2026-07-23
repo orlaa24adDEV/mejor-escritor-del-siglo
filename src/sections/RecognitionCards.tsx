@@ -41,17 +41,17 @@ const largeCards = [
 const smallCards = [
   {
     img: diploma6,
-    title: "Distincion menor 1",
+    title: "Distinción menor 1",
     text: "“Caballero Honorario” de la Orden del Punto y Coma, Buenos Aires. “Custodio Vitalicio de la Metáfora Bien Construida”, Academia Literaria de Ushguli.",
   },
   {
     img: diploma7,
-    title: "Distincion menor 2",
+    title: "Distinción menor 2",
     text: "“Embajador Plenipotenciario del Verso Preciso”, Instituto para la Medición del Lirismo, Kioto.",
   },
   {
     img: diploma8,
-    title: "Distincion menor 3",
+    title: "Distinción menor 3",
     text: "Mayor concentración de solemnidad en una fotografía promocional. (Renovación automática mientras continúe utilizando chaleco).",
   },
 ]

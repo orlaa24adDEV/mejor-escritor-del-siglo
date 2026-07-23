@@ -65,10 +65,10 @@ function Contacto() {
               </p>
           </div>
           <div className="flex-1 space-y-6">
-            <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCION</p>
+            <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCIÓN</p>
             <p className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed">
-              Mi legado ya esta escrito, todo el mundo tiene un destino escrito, la diferencia es que mi destino solo podia ser escrito por alguien unico e irrepetible, YO. Esta en tus manos poder ser parte de la leyenda y el fenomeno nunca antes visto. No piedas tu oportunidad.
-              <br/>Contactame y se parte de este legado.
+              Mi legado ya está escrito, todo el mundo tiene un destino escrito, la diferencia es que mi destino solo podía ser escrito por alguien único e irrepetible, YO. Está en tus manos poder ser parte de la leyenda y el fenómeno nunca antes visto. No pierdas tu oportunidad.
+              <br/>Contáctame y sé parte de este legado.
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ function Contacto() {
             <div className="flex-1">
               <div className="relative mb-8">
                 <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl text-dorado text-center border-b-1 border-dorado pb-6">
-                  ENVIAME UN MENSAJE
+                  ENVÍAME UN MENSAJE
                 </h2>
                 <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />
               </div>
@@ -122,7 +122,7 @@ function Contacto() {
               )}
               <div className="flex justify-center gap-6 mt-16">
                 <a
-                  href="https://www.instagram.com/francopou"
+                  href="https://www.instagram.com/elreydelaemocion?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-piedra hover:text-dorado transition-colors"
@@ -130,7 +130,7 @@ function Contacto() {
                   <FaInstagram className="h-8 w-8" />
                 </a>
                 <a
-                  href="https://www.tiktok.com/@francopou"
+                  href="https://www.tiktok.com/@francoreinaldopou"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-piedra hover:text-dorado transition-colors"

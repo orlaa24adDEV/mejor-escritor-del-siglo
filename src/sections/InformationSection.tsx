@@ -8,7 +8,7 @@ function InformationSection() {
       </div>
       <div className="flex items-center justify-center p-4">
         <p className="font-serif text-sm md:text-lg lg:text-xl text-dorado text-center" >
-          CIVILIZACIONES INSPIRADAS <br /> <span className="text-piedra text-base md:text-xl lg:text-2xl">EN EVOLUCION.</span>
+          CIVILIZACIONES INSPIRADAS <br /> <span className="text-piedra text-base md:text-xl lg:text-2xl">EN EVOLUCIÓN.</span>
         </p>
       </div>
       <div className="flex items-center justify-center p-4">

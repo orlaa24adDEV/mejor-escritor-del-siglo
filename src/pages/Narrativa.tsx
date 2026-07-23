@@ -26,7 +26,7 @@ export default function Narrativa() {
               </p>
           </div>
           <div className="flex-1 space-y-6">
-            <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCION</p>
+            <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCIÓN</p>
             <p className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed">
               Obras preservadas por el Archivo Oficial, clasificadas como material narrativo de interés permanente por su intensidad literaria y su particular capacidad para alterar la percepción de la realidad.
               <br/>Su influencia sobre la imaginación del lector continúa siendo objeto de estudio.
@@ -43,7 +43,7 @@ export default function Narrativa() {
             <Astroid className="absolute left-1/2 -translate-x-1/2 -top-3 text-dorado h-6 w-6" />
           </div>
           <TriangleAlert className="text-dorado h-8 w-8 md:h-10 md:w-10"/>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dorado mb-6 text-center p-6 md:p-10">ALERTA INSITUCIONAL</h2>
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-dorado mb-6 text-center p-6 md:p-10">ALERTA INSTITUCIONAL</h2>
           <div className="w-full max-w-[600px] aspect-square">
             <img
               src={Loco}
@@ -55,8 +55,8 @@ export default function Narrativa() {
             El Instituto para el Estudio del Legado de Franco Reinaldo Pou continúa su labor para ampliar el Archivo de Obras Narrativas mientras el autor aún las está escribiendo. <br/> Diversos equipos trabajan para acelerar la aparición de nuevas obras. Por razones legales, el Instituto no puede brindar detalles sobre los métodos empleados para incentivar el ritmo de escritura del autor. 
           </p>
             <div className="p-6 md:p-10">
-              <h2 className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed text-center max-w-2xl">Nivel de presion institucional sobre el autor: <span className="font-bold text-dorado">MAXIMO</span></h2>
-              <h2 className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed text-center max-w-2xl">Nuevas obras: <span className="font-bold text-dorado">PROXIMAMMENTE</span></h2>
+              <h2 className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed text-center max-w-2xl">Nivel de presión institucional sobre el autor: <span className="font-bold text-dorado">MÁXIMO</span></h2>
+              <h2 className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed text-center max-w-2xl">Nuevas obras: <span className="font-bold text-dorado">PRÓXIMAMENTE</span></h2>
             </div>
         </div>
       </section>

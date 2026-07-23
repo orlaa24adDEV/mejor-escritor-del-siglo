@@ -25,7 +25,7 @@ function HeroSection() {
           <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />
         </div>
         <p className="font-serif text-piedra text-xl md:text-2xl lg:text-3xl leading-relaxed">
-          Toda epoca tiene un autor que la define. <br /> <span className="text-dorado italic">Esta decidio exagerar.</span>
+          Toda época tiene un autor que la define. <br /> <span className="text-dorado italic">Está decidido a exagerar.</span>
         </p>
         <div className='p-10 mb-10'>
         <Button to="/reconocimiento">Reconocimiento</Button>

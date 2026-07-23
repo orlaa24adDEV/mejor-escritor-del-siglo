@@ -16,7 +16,7 @@ function Cronologia() {
             </div>
             <div className="relative">
               <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-marfil leading-tight border-b-1 border-dorado pb-10">
-                CRONOLOGIA <br />DEL FENOMENO
+                CRONOLOGÍA <br />DEL FENÓMENO
               </h1>
               <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />
             </div>
@@ -25,7 +25,7 @@ function Cronologia() {
               </p>
           </div>
           <div className="flex-1 space-y-6">
-            <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCION</p>
+            <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCIÓN</p>
             <p className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed">
               Durante siglos, las grandes civilizaciones conservaron registros de guerras, imperios, descubrimientos científicos y revoluciones. Este archivo reúne los acontecimientos más relevantes en la formación, desarrollo y consolidación del denominado Fenómeno Franco Reinaldo Pou.
               Aunque diversos historiadores insisten en interpretar estos hechos como la biografía de un escritor argentino, investigaciones recientes sostienen que constituyen, en realidad, el registro del lento e inevitable advenimiento del mayor autor del siglo XXI.

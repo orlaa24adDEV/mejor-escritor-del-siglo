@@ -6,7 +6,7 @@ import Logo from '@/components/Logo'
 const navItems = [
   { label: 'Inicio', path: '/' },
   { label: 'Cronología', path: '/cronologia' },
-  { label: 'Poesia', path: '/poesia' },
+  { label: 'Poesía', path: '/poesia' },
   { label: 'Narrativa', path: '/narrativa' },
   { label: 'Reconocimiento', path: '/reconocimiento' },
   { label: 'Registro Histórico', path: '/registro-historico' },

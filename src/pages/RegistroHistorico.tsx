@@ -100,7 +100,7 @@ export default function RegistroHistorico() {
             </div>
             <div className="relative">
               <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-marfil leading-tight border-b-1 border-dorado pb-10">
-                REGISTRO HISTORICO
+                REGISTRO HISTÓRICO
               </h1>
               <Astroid className="absolute left-1/2 -translate-x-1/2 -bottom-3 text-dorado h-6 w-6" />
             </div>
@@ -109,7 +109,7 @@ export default function RegistroHistorico() {
               </p>
           </div>
           <div className="flex-1 space-y-6">
-            <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCION</p>
+            <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCIÓN</p>
             <p className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed">
               Varias de las imágenes aquí exhibidas fueron consideradas imposibles al momento de su descubrimiento. El Instituto reconoce que ciertos acontecimientos podrían parecer incompatibles con las leyes conocidas de la física, la estadística o el sentido común. No obstante, ninguna de esas disciplinas forma parte de los criterios de catalogación empleados por esta institución.
               <br/>
@@ -126,7 +126,7 @@ export default function RegistroHistorico() {
         <div className="max-w-6xl xl:max-w-[1600px] mx-auto">
           <div className="text-center mb-12">
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-dorado">
-              ESTADISTICAS
+              ESTADÍSTICAS
             </h2>
             <Astroid className="mx-auto mt-4 text-dorado h-6 w-6" />
           </div>

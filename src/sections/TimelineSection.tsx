@@ -4,7 +4,7 @@ const timelineData = [
   {
     year: "1996",
     title: "1 de noviembre.",
-    text: "Nace Franco Reinaldo Pou en la ciudad de Buenos Aires, Argentina. La historia todavia desconoce las consecuencias de este acontecimiento, pero se sabe que marcará un antes y un después en la historia de la literatura mundial.",
+    text: "Nace Franco Reinaldo Pou en la ciudad de Buenos Aires, Argentina. La historia todavía desconoce las consecuencias de este acontecimiento, pero se sabe que marcará un antes y un después en la historia de la literatura mundial.",
   },
   {
     year: "1997 - 2011",
@@ -13,7 +13,7 @@ const timelineData = [
   },
   {
     year: "2012",
-    title: "Comienza a escribir poesia y narrativa.",
+    title: "Comienza a escribir poesía y narrativa.",
     text: "La literatura acusa recibo de sus primeras obras. ",
   },
   {
@@ -24,7 +24,7 @@ const timelineData = [
   {
     year: "2014",
     title: "Fin de secundaria",
-    text: "Termina sus estudios secundarios. Comienza su relacion con Flora.",
+    text: "Termina sus estudios secundarios. Comienza su relación con Flora.",
   },
   {
     year: "2015",
@@ -33,7 +33,7 @@ const timelineData = [
   },
   {
     year: "2016",
-    title: "Inicio de Licenciatura en Comunicacion",
+    title: "Inicio de Licenciatura en Comunicación",
     text: "La abandona para aceptar un puesto ad honorem en una biblioteca de geometría incierta. Diversos testimonios aseguran que sus pasillos conducían simultáneamente a todas partes y a ninguna. Colabora con la revista de la institución. Existen versiones no verificadas según las cuales habría quemado libros para atravesar el invierno. Al encontrar finalmente la salida del edificio, presenta su renuncia. Concluye Poemas en la hoguera.",
   },
   {
@@ -43,7 +43,7 @@ const timelineData = [
   },
   {
     year: "2018",
-    title: "Inicio en Licenciatura en Cultura y Lenguaje Artistico",
+    title: "Inicio en Licenciatura en Cultura y Lenguaje Artístico",
     text: "Abandona la carrera el mismo día. Las investigaciones indican que llegó hasta la parada del autobús antes de comprender que prefería volver a su casa. Termina El país de tu cuerpo.",
   },
   {
@@ -53,7 +53,7 @@ const timelineData = [
   },
   {
     year: "2020",
-    title: "Finalizacion de Victimario",
+    title: "Finalización de Victimario",
     text: "Viaja junto a su madre al norte argentino para acompañar a un familiar en estado terminal. La cuarentena nacional los obliga a permanecer allí. El familiar fallece.",
   },
   {
@@ -73,12 +73,12 @@ const timelineData = [
   },
   {
     year: "2024",
-    title: "Cultivacion de Paciencia.",
+    title: "Cultivación de Paciencia.",
     text: "Comienza a trabajar como administrativo solo con el objetivo de cultivar la paciencia. Resultado obtenido: Negativo. Aparecen además padecimientos físicos asociados a los psíquicos y cuya explicación continúa pendiente.",
   },
   {
     year: "2025",
-    title: "Publicacion Victimario.",
+    title: "Publicación Victimario.",
     text: "El autor manifiesta una disconformidad considerable. La novela, en cambio, permanece indiferente, tan indiferente que escribe en aproximadamente tres meses una contraparte que los críticos adjetivan como 'gloriosa'. Realiza su primera firma de ejemplares en la Feria Internacional del Libro de Buenos Aires. La recitación alcanza su forma definitiva. Los informes técnicos describen el fenómeno como un estado de lirismo absoluto. Las consecuencias para la audiencia continúan siendo objeto de estudio.",
   },
   {

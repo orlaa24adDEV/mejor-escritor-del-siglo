@@ -25,14 +25,14 @@ const booksData = [
   {
     img: PaisCuerpo,
     videoSrc: PaisCuerpoVideo,
-    title: "El pais de tu cuerpo",
+    title: "El país de tu cuerpo",
     text: "Publicado en 2019. ¿Qué ocurre cuando el amor deja de ser un sentimiento para convertirse en un lugar?. El país de tu cuerpo reúne treinta poemas que recorren el amor romántico desde la entrega, la ausencia, la esperanza y la contemplación. No solo busca romance, es la búsqueda del otro como quien intenta alcanzar también una forma más alta de sí mismo. Cada poema es una estación de ese territorio íntimo donde el cuerpo es patria, el otro es hogar y la palabra intenta alcanzar aquello que el silencio apenas consigue nombrar.",
   },
   {
     img: MejorPoesia,
     videoSrc: ProximaPoesia,
-    title: "El mejor libro de poesia de la decada.",
-    text: "Proximamente. Estado del proyecto: Escrito, corregido y la critic esta siendo emocionalmente preparada para el acontecimiento.",
+    title: "El mejor libro de poesía de la década.",
+    text: "Próximamente. Estado del proyecto: Escrito, corregido y la crítica está siendo emocionalmente preparada para el acontecimiento.",
   },
 ]
 
