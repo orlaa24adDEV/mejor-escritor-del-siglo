@@ -131,7 +131,7 @@ function PoetryBooks() {
               <Astroid className="absolute left-1/2 -translate-x-1/2 -top-3 text-dorado h-6 w-6" />
             </div>
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-40 items-center justify-center">
-              <div className="w-full lg:w-[600px] max-w-[560px] ">
+              <div className="w-full lg:w-[600px] max-w-[560px] aspect-[4/5]">
                 {book.img ? (
                   <img src={book.img} alt={book.title} className="w-full h-full object-cover shadow-[0_0_80px_rgba(176,141,87,0.25)] rounded-lg" />
                 ) : (

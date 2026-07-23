@@ -72,8 +72,8 @@ export default function RegistroHistorico() {
     const handler = (e: TouchEvent) => {
       if (arrastrando.current) e.preventDefault()
     }
-    document.addEventListener("touchmove", handler, { passive: false })
-    return () => document.removeEventListener("touchmove", handler)
+    document.addEventListener("touchmove", handler, { capture: true, passive: false })
+    return () => document.removeEventListener("touchmove", handler, { capture: true })
   }, [])
 
   useEffect(() => {
@@ -193,7 +193,7 @@ export default function RegistroHistorico() {
           </div>
 
           {/* Mobile: carrusel tipo deck con arrastre */}
-          <div className="lg:hidden">
+          <div className="lg:hidden overflow-hidden">
             <div
               className="select-none touch-none overscroll-contain"
               style={{ touchAction: "none", overscrollBehavior: "contain" }}
@@ -236,7 +236,7 @@ export default function RegistroHistorico() {
                   return (
                     <div
                       key={i}
-                      className="absolute inset-y-0 left-[18%] right-[22%] overflow-hidden"
+                      className="absolute inset-y-0 left-[5%] right-[5%] overflow-hidden"
                       style={{
                         zIndex,
                         transform,
@@ -244,6 +244,8 @@ export default function RegistroHistorico() {
                         borderRadius: "0.5rem",
                         cursor: dist === 0 ? "pointer" : undefined,
                         transition: dragging ? "none" : "transform 0.3s ease, filter 0.3s ease",
+                        touchAction: "none",
+                        userSelect: "none",
                       }}
                     >
                       <img src={item.img} alt="" className="w-full h-full object-cover" />
