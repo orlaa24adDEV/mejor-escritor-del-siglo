@@ -1,13 +1,13 @@
 import { Play, Pause, Volume2, Volume1, Astroid } from "lucide-react"
 import { useRef, useState } from "react"
-import VideoPrueba from "@/assets/videoPrueba.mp4"
 import Victimario from "@/assets/victimario.png"
 import Button from "@/components/Button"
+import VictimarioVideo from "@/assets/Victimario.mp4"
 
 const booksData = [
   {
     img: Victimario,
-    videoSrc: VideoPrueba,
+    videoSrc: VictimarioVideo,
     title: "Victimario",
     text: "El asesino decidió contar su versión primero. Victimario es el diario de un asesino serial que no se arrepiente ni intenta justificarse. En cambio, disfruta exhibiendo sus crímenes como si fueran una forma de arte. Entre escenas brutales, una rivalidad obsesiva con el detective Helmut, el poder de las redes sociales y una tensión psicológica creciente, Victimario conduce al lector por un descenso constante hacia lo imprevisible. Y cuando parece que todas las respuestas han sido encontradas, la novela abre una puerta hacia aquello que ninguna investigación puede explicar.",
   },

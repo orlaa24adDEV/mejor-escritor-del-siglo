@@ -67,7 +67,7 @@ function Contacto() {
           <div className="flex-1 space-y-6">
             <p className="font-serif text-xl md:text-2xl text-dorado">INTRODUCCION</p>
             <p className="font-serif text-lg md:text-xl lg:text-2xl text-marfil leading-relaxed">
-              Mi legado ya esta escrito, todo el mundo tiene un destino escrito, la diferencia es que el que escribio mi destino fui yo mismo, esta en tus manos poder ser parte de la leyenda y el fenomeno nunca antes visto. No piedas tu oportunidad.
+              Mi legado ya esta escrito, todo el mundo tiene un destino escrito, la diferencia es que mi destino solo podia ser escrito por alguien unico e irrepetible, YO. Esta en tus manos poder ser parte de la leyenda y el fenomeno nunca antes visto. No piedas tu oportunidad.
               <br/>Contactame y se parte de este legado.
             </p>
           </div>

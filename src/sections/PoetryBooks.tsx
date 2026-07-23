@@ -4,31 +4,33 @@ import VerdeSangre from "@/assets/verdeSangre.png"
 import PoemasHoguera from "@/assets/PoemasHoguera.png"
 import PaisCuerpo from "@/assets/paisCuerpo.png"
 import MejorPoesia from "@/assets/mejorPoesiaDecada.png"
-import VideoPrueba from "@/assets/videoPrueba.mp4"
 import Button from "@/components/Button"
+import ProximaPoesia from "@/assets/ProximaPoesia.mp4"
+import PoesiaHoguera from "@/assets/PoemasHoguera.mp4"
+import PaisCuerpoVideo from "@/assets/PaisCuerpo.mp4"
 
 const booksData = [
   {
     img: VerdeSangre,
-    videoSrc: VideoPrueba,
+    videoSrc: "",
     title: "Verde Sangre (2013)",
     text: "Redactado durante la adolescencia y confeccionado artesanalmente, ejemplar por ejemplar, mediante el paciente doblado manual de 500 volúmenes, de los cuales se encuadernaron la mitad, y solo doce encontraron lectores. Los restantes fueron posteriormente condenados por el propio autor a un exilio editorial del que jamás lograron regresar. Hoy constituye una pieza de valor estrictamente arqueológico. Su búsqueda y lectura continúa siendo desaconsejada por el Instituto Internacional para el Estudio del Legado de Franco Reinaldo Pou.",
   },
   {
     img: PoemasHoguera,
-    videoSrc: "",
+    videoSrc: PoesiaHoguera,
     title: "Poemas en la hoguera",
     text: "Publicado en 2021 (escrito en 2016). En este libro, el todavía adolescente Franco Reinaldo Pou, influenciado por la tradición de Pedro Bonifacio Palacios (Almafuerte), se adentra en una poesía de evidente intensidad ética y filosófica. Estas composiciones dialogan con la fe, la dignidad, la pobreza, la memoria, el sufrimiento y la esperanza mediante un lenguaje deliberadamente exigente, cargado de imágenes y resonancias clásicas. Es una obra escrita para lectores que disfrutan demorarse en el verso, regresar sobre una estrofa y descubrir nuevos sentidos en cada lectura. ",
   },
   {
     img: PaisCuerpo,
-    videoSrc: "",
+    videoSrc: PaisCuerpoVideo,
     title: "El pais de tu cuerpo",
     text: "Publicado en 2019. ¿Qué ocurre cuando el amor deja de ser un sentimiento para convertirse en un lugar?. El país de tu cuerpo reúne treinta poemas que recorren el amor romántico desde la entrega, la ausencia, la esperanza y la contemplación. No solo busca romance, es la búsqueda del otro como quien intenta alcanzar también una forma más alta de sí mismo. Cada poema es una estación de ese territorio íntimo donde el cuerpo es patria, el otro es hogar y la palabra intenta alcanzar aquello que el silencio apenas consigue nombrar.",
   },
   {
     img: MejorPoesia,
-    videoSrc: "",
+    videoSrc: ProximaPoesia,
     title: "El mejor libro de poesia de la decada.",
     text: "Proximamente. Estado del proyecto: Escrito, corregido y la critic esta siendo emocionalmente preparada para el acontecimiento.",
   },
@@ -85,7 +87,7 @@ function VideoPlayer({ src }: VideoPlayerProps) {
             onEnded={() => setIsPlaying(false)}
           />
         ) : (
-          <p className="font-serif text-piedra text-lg">Video pendiente</p>
+          <p className="font-serif text-piedra text-lg">Sin video</p>
         )}
       </div>
       <div className="flex items-center gap-4 mt-4">
