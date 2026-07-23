@@ -131,7 +131,7 @@ function PoetryBooks() {
               <Astroid className="absolute left-1/2 -translate-x-1/2 -top-3 text-dorado h-6 w-6" />
             </div>
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-40 items-center justify-center">
-              <div className="w-full lg:w-[600px] max-w-[600px] aspect-square">
+              <div className="w-full lg:w-[600px] max-w-[560px] ">
                 {book.img ? (
                   <img src={book.img} alt={book.title} className="w-full h-full object-cover shadow-[0_0_80px_rgba(176,141,87,0.25)] rounded-lg" />
                 ) : (
@@ -140,9 +140,11 @@ function PoetryBooks() {
                   </div>
                 )}
               </div>
-              <div className="w-full lg:w-[360px] max-w-[360px] shrink-0">
-                <VideoPlayer src={book.videoSrc || undefined} />
-              </div>
+              {book.videoSrc ? (
+                <div className="w-full lg:w-[360px] max-w-[360px] shrink-0">
+                  <VideoPlayer src={book.videoSrc} />
+                </div>
+              ) : null}
             </div>
             <div className="mt-12 text-center">
               <h2 className="font-serif text-2xl md:text-3xl text-dorado mb-4">{book.title}</h2>
